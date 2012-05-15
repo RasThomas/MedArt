@@ -20,6 +20,7 @@ public class ListRetrival {
 			Node node = articleIdList.item(i);
 			
 			System.out.println("ID : " + (node.getNodeValue()));
+			//Tests
 			
 			
 		  }
