@@ -25,44 +25,47 @@ import org.xml.sax.SAXException;
 
 public class PubMedSearch {
 	private static final String link = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=";
-	
-	public static Document commitSearch(String searchTerm) throws IOException, ParserConfigurationException, SAXException, TransformerException	{
-		
-		String search = link + searchTerm.replace(" ", "+");
-	    URL url = new URL(search);
-	    URLConnection conn = url.openConnection();
-		  
-	    DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-	    domFactory.setNamespaceAware(true);
-	    DocumentBuilder builder = domFactory.newDocumentBuilder();
-	    Document doc = builder.parse(conn.getInputStream());
-	    
-	    Transformer transformer = TransformerFactory.newInstance().newTransformer();
-	    transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 
-	    StreamResult result = new StreamResult(new StringWriter());
-	    DOMSource source = new DOMSource(doc);
-	    transformer.transform(source, result);
+	public static Document commitSearch(String searchTerm, String searchLink) throws IOException, ParserConfigurationException, SAXException, TransformerException	{
 
-	    String xmlString = result.getWriter().toString();
-	    System.out.println(xmlString);
+		String search = searchLink + searchTerm.replace(" ", "+");
+		URL url = new URL(search);
+		URLConnection conn = url.openConnection();
+
+		DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
+		domFactory.setNamespaceAware(true);
+		DocumentBuilder builder = domFactory.newDocumentBuilder();
+		Document doc = builder.parse(conn.getInputStream());
+
+		Transformer transformer = TransformerFactory.newInstance().newTransformer();
+		transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+		StreamResult result = new StreamResult(new StringWriter());
+		DOMSource source = new DOMSource(doc);
+		transformer.transform(source, result);
+
+		String xmlString = result.getWriter().toString();
+		System.out.println(xmlString);
 		return doc;
 	}
-	  public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
-		  Document test = commitSearch("Stent Chest Pain");
-		  Document test2 = ListRetrival.findArticles(test);
-		  
-		    try {
-		        Source source = new DOMSource(test2);
+	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
+		Document test = commitSearch("Stent Chest Pain", link);
+		Document test2 = ListRetrival.findArticles(test);
 
-		        File file = new File("Test.txt");
-		        Result result = new StreamResult(file);
-		        
-		        Transformer xformer = TransformerFactory.newInstance().newTransformer();
-		        xformer.transform(source, result);
-		    		} catch (TransformerConfigurationException e) {
-		    	} catch (TransformerException e) {
-		    }
-		  
-	  }
+
+
+		try {
+			Source source = new DOMSource(test);
+
+			File file = new File("Test.txt");
+			Result result = new StreamResult(file);
+
+			Transformer xformer = TransformerFactory.newInstance().newTransformer();
+			xformer.transform(source, result);
+		} catch (TransformerConfigurationException e) {
+		} catch (TransformerException e) {
+		}
+
+
+	}
 }
