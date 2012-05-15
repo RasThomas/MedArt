@@ -45,7 +45,7 @@ public class PubMedSearch {
 		transformer.transform(source, result);
 
 		String xmlString = result.getWriter().toString();
-		System.out.println(xmlString);
+	//	System.out.println(xmlString);
 		return doc;
 	}
 	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {

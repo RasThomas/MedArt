@@ -46,14 +46,17 @@ public class ListRetrival {
 						Node nodeArt = articleNode.item(0);
 						if (nodeArt.getNodeType() == Node.ELEMENT_NODE) {
 							Element elementArt = (Element) nodeArt;
-							NodeList nodelist2 = elementArt.getElementsByTagName("ArticleTitle");
-							Element element2 = (Element) nodelist2.item(0);
-							NodeList fstNm2 = element2.getChildNodes();
+							NodeList nodelistTitle = elementArt.getElementsByTagName("ArticleTitle");
+							Element elementTitle = (Element) nodelistTitle.item(0);
+							NodeList fstNm2 = elementTitle.getChildNodes();
 							System.out.println("ArticleName : " + (fstNm2.item(0)).getNodeValue());
-							NodeList nodelist1 = elementArt.getElementsByTagName("AbstractText");
-							Element element3 = (Element) nodelist1.item(0);
-							NodeList fstNm3 = element3.getChildNodes();
+							NodeList nodelistAbstract = elementArt.getElementsByTagName("AbstractText");
+							Element elementAbstract = (Element) nodelistAbstract.item(0);
+							//Not all documents have an abstract
+							if(elementAbstract != null) {
+							NodeList fstNm3 = elementAbstract.getChildNodes();
 							System.out.println("Abstract : " + (fstNm3.item(0)).getNodeValue());
+							}
 						}
 					
 					
