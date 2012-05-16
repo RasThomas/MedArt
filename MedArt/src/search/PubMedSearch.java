@@ -2,14 +2,7 @@ package search;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
-import java.net.URL;
-import java.net.URLConnection;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
@@ -25,39 +18,20 @@ import org.xml.sax.SAXException;
 
 public class PubMedSearch {
 	private static final String link = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=";
-
-	public static Document commitSearch(String searchTerm, String searchLink) throws IOException, ParserConfigurationException, SAXException, TransformerException	{
-
-		String search = searchLink + searchTerm.replace(" ", "+");
-		URL url = new URL(search);
-		URLConnection conn = url.openConnection();
-
-		DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-		domFactory.setNamespaceAware(true);
-		DocumentBuilder builder = domFactory.newDocumentBuilder();
-		Document doc = builder.parse(conn.getInputStream());
-
-		Transformer transformer = TransformerFactory.newInstance().newTransformer();
-		transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-
-		StreamResult result = new StreamResult(new StringWriter());
-		DOMSource source = new DOMSource(doc);
-		transformer.transform(source, result);
-
-		String xmlString = result.getWriter().toString();
-	//	System.out.println(xmlString);
-		return doc;
+	private static final String retmax = "&retmax=";
+	private static final String retstart = "&retstart=";
+	
+	public static Document pubMedSearch(String terms, String start, String max) throws IOException, ParserConfigurationException, SAXException, TransformerException{
+		String search = link + terms.replace(" ", "+") + retstart + start + retmax + max;
+		Document dummy = CommitSearch.commitSearch(search);
+		
+		return dummy;
 	}
-	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
-		Document test = commitSearch("Stent Chest Pain", link);
-		Document test2 = ListRetrival.findArticles(test);
-
-
-
+	public static void printFile(Document doc, String fileName) {
 		try {
-			Source source = new DOMSource(test);
+			Source source = new DOMSource(doc);
 
-			File file = new File("Test.txt");
+			File file = new File(fileName);
 			Result result = new StreamResult(file);
 
 			Transformer xformer = TransformerFactory.newInstance().newTransformer();
@@ -65,6 +39,18 @@ public class PubMedSearch {
 		} catch (TransformerConfigurationException e) {
 		} catch (TransformerException e) {
 		}
+		
+	}
+
+
+	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
+
+		Document test = pubMedSearch("Stent Chest Pain", "0", "20");
+		Document test2 = ListRetrival.findArticles(test);
+		printFile(test, "Search.txt");
+		GetArticleInfo.articleInfo("22562999");
+
+
 
 
 	}
