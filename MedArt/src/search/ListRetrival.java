@@ -21,7 +21,7 @@ public class ListRetrival {
 
 
 	public static Document findArticles(Document docList) throws IOException, ParserConfigurationException, SAXException, TransformerException {
-		Document fullList = null;
+		Document doc = null;
 
 		NodeList articleIdList = docList.getElementsByTagName("IdList");
 		System.out.println(articleIdList.getLength());
@@ -49,6 +49,26 @@ public class ListRetrival {
 			try {
 				DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 				DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+				
+				doc = docBuilder.newDocument();
+				Element rootElement = doc.createElement("Search");
+				doc.appendChild(rootElement);
+
+				NodeList countList = docList.getElementsByTagName("Count");
+				Node venueNode = countList.item(0);
+				Element count2 = (Element) venueNode;
+				Element count = doc.createElement("Count");
+				count.appendChild(doc.createTextNode("yong"));
+				rootElement.appendChild(count);
+
+				NodeList maxList = docList.getElementsByTagName("RetMax");
+				Element max = (Element) maxList.item(0);
+				NodeList fstNm4 = max.getChildNodes();
+				System.out.println("ArticleName : " + (countList.item(0).getNodeValue()));
+				NodeList startList = docList.getElementsByTagName("Count");
+
+
+				System.out.println(docList.getElementsByTagName("RetStart").getLength());
 
 				NodeList articleNode = articleDoc.getElementsByTagName("DocumentSummary");
 				int size = articleDoc.getElementsByTagName("DocumentSummary").getLength();
@@ -60,13 +80,13 @@ public class ListRetrival {
 						NodeList nodelistTitle = elementArt.getElementsByTagName("Title");
 						Element elementTitle = (Element) nodelistTitle.item(0);
 						NodeList fstNm2 = elementTitle.getChildNodes();
-						System.out.println("ArticleName : " + (fstNm2.item(0)).getNodeValue());
+//						System.out.println("ArticleName : " + (fstNm2.item(0)).getNodeValue());
 						NodeList nodelistAbstract = elementArt.getElementsByTagName("Attributes");
 						Element elementAbstract = (Element) nodelistAbstract.item(0);
 						//Not all documents have an abstract
 						if(elementAbstract != null) {
 							NodeList fstNm3 = elementAbstract.getChildNodes();
-							System.out.println("Abstract : " + (fstNm3.item(0)).getNodeValue());
+//							System.out.println("Abstract : " + (fstNm3.item(0)).getNodeValue());
 						}
 					}
 
@@ -78,7 +98,7 @@ public class ListRetrival {
 
 
 
-		return fullList;
+		return doc;
 	}
 
 
