@@ -1,0 +1,528 @@
+Pat ID;Country Code;SAE Date;Unexpected SAE;UADE;SAE Diagnosis;Event Number;Report Type;FU Report;Site Notified Date;Relation Device;Relation Drug;Outcome;Resloved  Date
+1;30;11/feb/2007;   ;   ; Laxastive Induced Diarrhea, CA.of Prostata                                                                ;1;1;.;19/mar/2007;1;1;3;.
+1;30;04/abr/2007;   ;   ; Metastatc Ca. of Prostate                                                                                 ;2;1;.;10/abr/2007;1;1;3;.
+1;30;11/feb/2007;   ;   ;Mtastatice Ca. of Prostate                                                                                 ;2;2;1;08-MAY-2007;1;1;4;30/abr/2007
+2;30;16/sep/2007;   ;   ;chest pain                                                                                                 ;8;1;.;17/sep/2007;1;1;3;.
+3;30;14/feb/2007;   ;   ;chest pain                                                                                                 ;3;1;.;27-MAY-2007;1;1;1;15/feb/2007
+3;30;30/jun/2007;   ;   ;Anterior wall MI                                                                                           ;4;1;.;01/jul/2007;1;1;1;06/jul/2007
+4;30;12/abr/2007;   ;   ;cardiac arrest                                                                                             ;1;1;.;17-MAY-2007;1;1;4;12/abr/2007
+5;30;25/nov/2007;   ;   ;Acute Inferior SteMI+RV Involvment                                                                         ;1;1;.;29/nov/2007;1;1;1;26/nov/2007
+6;30;20-MAY-2007;   ;   ;chest pain                                                                                                 ;2;1;.;02/jul/2007;1;1;1;02/jul/2007
+6;30;20/jun/2007;   ;   ;Chest pain                                                                                                 ;3;1;.;20/jun/2007;1;1;1;21/jun/2007
+7;30;05/ago/2007;   ;   ;Cerebrovascular accident -Left                                                                             ;1;1;.;16/ago/2007;1;1;3;.
+7;30;13-DEC-2007;   ;   ;Stent restenosis                                                                                           ;2;1;.;13-DEC-2007;1;1;1;13-DEC-2007
+8;30;05/jun/2007;   ;   ;unstable angina                                                                                            ;1;1;.;26/jun/2007;1;1;3;.
+8;30;05/jun/2007;   ;   ;In stent restenosis,                                                                                       ;2;1;.;26/jun/2007;3;1;1;26/jun/2007
+9;30;14/ene/2007;   ;   ;chest pain                                                                                                 ;1;1;.;23/ene/2007;1;1;1;15/ene/2007
+9;30;04/mar/2007;   ;   ;chest pain                                                                                                 ;2;1;.;04/abr/2007;1;1;1;05/mar/2007
+10;30;13/ene/2007;   ;   ;MSSA BACTEREMIA                                                                                            ;1;1;.;13/ene/2007;1;1;1;28/ene/2007
+10;30;24/jun/2007;   ;   ;unstable angina                                                                                            ;2;1;.;24/jun/2007;1;1;3;.
+11;30;02/feb/2007;   ;   ;weakness                                                                                                   ;1;1;.;04/mar/2007;1;1;1;04/feb/2007
+11;30;26/sep/2007;   ;   ;Acute Bronchitis                                                                                           ;2;1;.;25/nov/2007;1;1;1;28/sep/2007
+12;30;24/feb/2007;   ;   ;weakness                                                                                                   ;1;1;.;25/feb/2007;1;1;1;25/feb/2007
+12;30;20/mar/2007;   ;   ;chest pain                                                                                                 ;2;1;.;20/mar/2007;1;1;1;21/mar/2007
+13;30;08/mar/2007;   ;   ;chest pain                                                                                                 ;1;1;.;15/mar/2007;1;1;1;09/mar/2007
+14;30;30/mar/2007;   ;   ;Free Wall Rupture                                                                                          ;1;1;.;30/mar/2007;2;1;1;30/mar/2007
+14;30;31/mar/2007;   ;   ;heart failer                                                                                               ;2;1;.;01/abr/2007;1;1;2;29/abr/2007
+15;30;26/nov/2007;   ;   ;relocation of leads-defibrillator                                                                          ;2;1;.;12-DEC-2007;1;1;1;27/nov/2007
+15;30;22/jun/2007;   ;   ;acute MI                                                                                                   ;1;1;.;24/jun/2007;1;1;1;23/jun/2007
+16;30;04/nov/2007;   ;   ;unstable angina pectoris                                                                                   ;1;1;.;04-DEC-2007;3;1;1;04/nov/2007
+17;30;07/ene/2007;2;   ;Pericarditis;1;1;.;09/ene/2007;1;1;3;.
+18;30;27/nov/2007;   ;   ;unstable angina                                                                                            ;1;1;.;17-DEC-2007;1;1;1;30/nov/2007
+19;30;01/ene/2007;2;   ;Atrial fibrilation                                                                                         ;1;1;.;02/ene/2007;1;1;1;02/ene/2007
+19;30;19/ene/2007;1;2;pulmonary congestion                                                                                       ;2;1;.;04/feb/2007;1;1;1;21/ene/2007
+19;30;11/feb/2007;1;2;Atrial Fibrilation                                                                                         ;3;1;.;12/feb/2007;1;1;3;.
+20;30;11/feb/2007;2;   ;atrial fibrilasion                                                                                         ;3;2;1;12/feb/2007;1;1;1;15/feb/2007
+21;30;19/abr/2007;   ;   ;Chest pain                                                                                                 ;1;1;.;22/abr/2007;1;1;1;22/abr/2007
+22;30;06/feb/2007;   ;   ;pseudoaneurism right femoral artery                                                                        ;1;1;.;04/sep/2007;1;4;1;07/feb/2007
+23;30;05/abr/2007;   ;   ;road accident                                                                                              ;1;1;.;07/ago/2007;1;1;1;10/abr/2007
+24;30;21/mar/2007;   ;   ;ventricular tachycardia                                                                                    ;1;1;.;07/ago/2007;1;1;1;23/mar/2007
+25;30;13/feb/2007;2;   ;ACUTE STENT TROMBOSIS                                                                                      ;1;1;.;14/feb/2007;3;4;1;13/feb/2007
+26;30;12/jul/2007;   ;   ;non st elevation mi                                                                                        ;1;1;.;04/sep/2007;1;1;1;18/jul/2007
+27;30;10/jul/2007;   ;   ;unstable angina                                                                                            ;1;1;.;25/sep/2007;4;1;1;11/jul/2007
+28;30;25/abr/2007;   ;   ;Acute MI                                                                                                   ;1;1;.;26/abr/2007;5;1;1;25/abr/2007
+28;30;01-MAY-2007;   ;   ;TIA (stroke)                                                                                               ;2;1;.;20-MAY-2007;1;1;3;.
+28;30;01-MAY-2007;   ;   ;TIA                                                                                                        ;2;2;1;20-MAY-2007;1;1;1;02-MAY-2007
+29;30;18/ene/2007;2;   ;CHF                                                                                                        ;7;1;.;24/ene/2007;1;1;3;.
+29;30;18/ene/2007;2;   ;CHF                                                                                                        ;7;2;1;24/ene/2007;1;1;1;29/ene/2007
+29;30;04/feb/2007;2;   ;CHF                                                                                                        ;8;1;.;04/feb/2007;1;1;1;04/feb/2007
+30;30;19/feb/2007;2;   ;Acute MI                                                                                                   ;2;1;.;19/feb/2007;3;1;3;.
+30;30;19/feb/2007;   ;   ;Acute MI                                                                                                   ;2;2;1;19/feb/2007;3;1;2;26/feb/2007
+31;30;23/nov/2007;   ;   ;Acute MI                                                                                                   ;1;1;.;29/nov/2007;4;1;1;27/nov/2007
+32;30;13-MAY-2007;   ;   ;Unstable Angina                                                                                            ;1;1;.;15-MAY-2007;2;1;1;15-MAY-2007
+33;30;17/mar/2007;   ;   ;pulmonary edema                                                                                            ;1;1;.;26/abr/2007;1;1;1;17/mar/2007
+33;30;03/abr/2007;   ;   ;chest pain                                                                                                 ;2;1;.;26/abr/2007;1;1;1;08/abr/2007
+34;30;23/ago/2007;   ;   ;chest pain                                                                                                 ;1;1;.;23/ago/2007;4;2;3;.
+35;30;06/mar/2007;   ;   ;CHEST PAIN                                                                                                 ;2;1;.;07/mar/2007;1;1;1;07/mar/2007
+36;30;06/abr/2007;   ;   ;WORSENIG HEART FAILURE                                                                                     ;4;1;.;10/abr/2007;2;1;2;08/abr/2007
+36;30;06/abr/2007;   ;   ;Atrial fibrillation                                                                                        ;5;1;.;10/abr/2007;2;1;2;08/abr/2007
+36;30;06/abr/2007;   ;   ;pneumonia                                                                                                  ;6;1;.;10/abr/2007;1;2;4;10/abr/2007
+37;30;04/abr/2007;   ;   ;Progressive neuromyopathy                                                                                  ;5;1;.;21-MAY-2007;1;1;2;10-MAY-2007
+38;30;02/nov/2007;   ;   ;chest pain                                                                                                 ;2;1;.;04/nov/2007;1;1;1;04/nov/2007
+39;30;01/ago/2007;   ;   ;acute pulmomary edema                                                                                      ;2;1;.;18/sep/2007;1;1;2;02/ago/2007
+39;30;25/ago/2007;   ;   ;leg adema                                                                                                  ;3;1;.;18/sep/2007;1;1;1;29/ago/2007
+40;30;17/sep/2007;   ;   ;Urinary tract infection                                                                                    ;2;1;.;15-OCT-2007;1;1;2;29/sep/2007
+41;30;20/ene/2007;1;2;aspiration                                                                                                 ;1;1;.;24/ene/2007;1;1;2;23/ene/2007
+42;30;18/ene/2007;   ;   ;chest pain                                                                                                 ;2;1;.;15-MAY-2007;1;1;1;29/ene/2007
+43;30;27/abr/2007;   ;   ;pulmonary edema                                                                                            ;2;1;.;05/jun/2007;1;1;1;10-MAY-2007
+44;30;15/ene/2007;   ;   ;chest pain                                                                                                 ;5;1;.;25/jun/2007;1;1;1;17/ene/2007
+44;30;20/ene/2007;   ;   ;chest pain                                                                                                 ;6;1;.;25/jun/2007;1;1;1;21/ene/2007
+44;30;26/jul/2007;   ;   ;chest pain                                                                                                 ;7;1;.;05/ago/2007;1;1;1;28/jul/2007
+45;30;18/abr/2007;   ;   ;chest pain                                                                                                 ;1;1;.;25/abr/2007;1;1;1;23/abr/2007
+46;30;20/mar/2007;   ;   ;acute myocardial infarction                                                                                ;2;1;.;21/mar/2007;5;1;1;20/mar/2007
+46;30;20/sep/2007;   ;   ;acute coronary syndrome                                                                                    ;3;1;.;23/sep/2007;4;1;1;21/sep/2007
+47;30;25/feb/2007;   ;   ;Revascularization at 13M follow up angiography                                                             ;1;1;.;25/feb/2007;1;1;1;25/feb/2007
+47;30;25/feb/2007;   ;   ;Revascularization on 13 month follow up angiography                                                        ;1;2;1;25/feb/2007;1;1;1;26/feb/2007
+48;30;16/ene/2007;   ;   ;Chest Pain                                                                                                 ;1;1;.;16/ene/2007;1;1;3;.
+48;30;16/ene/2007;   ;   ;chest pain                                                                                                 ;1;2;1;16/ene/2007;1;1;1;17/ene/2007
+49;30;12/jun/2007;   ;   ;bradycardia                                                                                                ;6;1;.;27/jun/2007;1;1;1;17/jun/2007
+50;30;18/mar/2007;   ;   ;chest pain                                                                                                 ;1;1;.;26/mar/2007;1;1;1;19/mar/2007
+50;30;18/mar/2007;   ;   ;chest pain                                                                                                 ;1;2;1;26/mar/2007;1;1;1;19/mar/2007
+51;30;22/ago/2007;   ;   ;Rt. Calf Basal Cell Carcinoma(BCC) Excision                                                                ;2;1;.;08/nov/2007;1;1;1;23/ago/2007
+51;30;28-OCT-2007;   ;   ;Closed endoscopic Biopsy of Lt. Vocal cord                                                                 ;3;1;.;08/nov/2007;1;1;1;29-OCT-2007
+52;30;02/ene/2007;2;   ;chest pain                                                                                                 ;1;1;.;03/ene/2007;1;1;3;.
+52;30;02/ene/2007;2;   ;chest pain.                                                                                                ;1;2;1;03/ene/2007;1;1;1;03/ene/2007
+53;30;06/jun/2007;   ;   ;Occlusive Hydrocephalus                                                                                    ;1;1;.;11/jun/2007;1;1;3;.
+53;30;06/jun/2007;   ;   ;Occlusive Hydrocephalus                                                                                    ;1;2;1;11/jun/2007;1;1;1;19/jun/2007
+54;30;17/jun/2007;   ;   ;Effort Angina                                                                                              ;2;1;.;17/jun/2007;5;1;1;18/jun/2007
+55;30;28/ene/2007;   ;   ;CHF Exacerbation                                                                                           ;1;1;.;20/jun/2007;1;1;1;01/feb/2007
+56;30;11/jul/2007;   ;   ;Silent Ischemia                                                                                            ;1;1;.;11/jul/2007;5;1;3;.
+57;30;21/jun/2007;   ;   ;Syncope                                                                                                    ;1;1;.;25/jun/2007;1;1;1;25/jun/2007
+58;30;11/mar/2007;   ;   ;chest pain                                                                                                 ;2;1;.;06/jun/2007;1;1;1;14/mar/2007
+59;30;21/ene/2007;   ;   ;Suspected In Stent Restenosis                                                                              ;1;1;.;23/ene/2007;1;1;3;.
+59;30;21/ene/2007;   ;   ;suspected restenosis                                                                                       ;1;2;1;23/ene/2007;1;1;1;21/ene/2007
+60;30;15-MAY-2007;   ;   ;Chest Pain                                                                                                 ;4;1;.;26/jun/2007;1;1;1;17-MAY-2007
+60;30;05/jun/2007;   ;   ;Hyperkalemia                                                                                               ;5;1;.;26/jun/2007;1;1;1;07/jun/2007
+61;30;14/mar/2007;   ;   ;DYSPNEA                                                                                                    ;1;1;.;02-MAY-2007;1;1;1;16/mar/2007
+61;30;14/mar/2007;   ;   ;Dyspnea                                                                                                    ;1;2;1;02-MAY-2007;1;1;1;16/mar/2007
+61;30;14/nov/2007;   ;   ;Bradycardia                                                                                                ;2;1;.;14/nov/2007;1;1;3;.
+61;30;14/nov/2007;   ;   ;Bradycardia                                                                                                ;2;2;1;14/nov/2007;.;.;1;21/nov/2007
+62;30;29/jun/2007;   ;   ;acute gastroenteritis                                                                                      ;2;1;.;02/jul/2007;1;1;1;02/jul/2007
+63;30;02-DEC-2007;   ;   ;Weakness                                                                                                   ;1;1;.;11-DEC-2007;2;1;1;03-DEC-2007
+64;30;03/ene/2007;2;   ;Venticular Fibrilation                                                                                     ;1;2;2;03/ene/2007;1;1;3;03/01/2007
+64;30;03/ene/2007;2;   ;Ventricular fibrillation.                                                                                  ;1;2;3;03/ene/2007;1;1;2;24/ene/2007
+64;30;28/mar/2007;   ;   ;Congestive heart failure                                                                                   ;2;1;.;05/jun/2007;1;1;4;
+64;30;28/mar/2007;   ;   ;Congestive heart failure                                                                                   ;2;2;1;05/jun/2007;1;1;1;04/abr/2007
+64;30;09/mar/2007;   ;   ;Congestive Heart filure                                                                                    ;3;1;.;31/jul/2007;1;1;1;19/mar/2007
+64;30;13/jun/2007;   ;   ;right Pleural Effusion - drained                                                                           ;4;1;.;31/jul/2007;1;1;1;14/jun/2007
+64;30;27/jun/2007;   ;   ;pleural effusion                                                                                           ;5;1;.;31/jul/2007;1;1;1;02/jul/2007
+64;30;08/ago/2007;   ;   ;Dysnea                                                                                                     ;6;1;.;03-DEC-2007;1;1;2;10/ago/2007
+64;30;17/ago/2007;   ;   ;Dyspnea                                                                                                    ;7;1;.;03-DEC-2007;1;1;2;09/ago/2007
+64;30;06/sep/2007;   ;   ;Congestive Heart Failure                                                                                   ;8;1;.;03-DEC-2007;1;1;2;09/sep/2007
+64;30;10-OCT-2007;   ;   ;Congestive heart faliure exacerbation                                                                      ;9;1;.;03-DEC-2007;1;1;2;12-OCT-2007
+64;30;22-OCT-2007;   ;   ;Pneumonia                                                                                                  ;10;1;.;03-DEC-2007;1;1;1;29-OCT-2007
+64;30;06/nov/2007;   ;   ;CHF EXSASERVATION                                                                                          ;11;1;.;03-DEC-2007;1;1;4;07/nov/2007
+65;30;16/feb/2007;1;2;Pulmunary Edema                                                                                            ;1;1;.;18/feb/2007;3;1;4;16/feb/2007
+65;30;16/feb/2007;1;2;Pulmunary Edema                                                                                            ;1;2;1;18/feb/2007;3;1;4;16/feb/2007
+66;30;18/ene/2007;2;   ;Stent Trombosis                                                                                            ;1;1;.;18/ene/2007;1;1;1;18/ene/2007
+66;30;01/feb/2007;2;   ;Acute MI                                                                                                   ;2;1;.;01/feb/2007;4;1;1;01/feb/2007
+66;30;10/feb/2007;2;   ;chest pain.                                                                                                ;3;1;.;11/feb/2007;2;1;3;.
+66;30;10/feb/2007;2;   ;chest pain                                                                                                 ;3;2;1;11/feb/2007;1;1;1;12/feb/2007
+66;30;27/mar/2007;   ;   ;chest pain                                                                                                 ;4;1;.;28/mar/2007;1;1;1;28/mar/2007
+66;30;10/abr/2007;   ;   ;chest pain                                                                                                 ;5;1;.;11/abr/2007;1;1;3;.
+66;30;12/abr/2007;   ;   ;chest pain                                                                                                 ;6;1;.;16/abr/2007;1;1;1;13/abr/2007
+66;30;05-DEC-2007;   ;   ;stable angina                                                                                              ;7;1;.;05-DEC-2007;4;2;1;06-DEC-2007
+67;30;02-MAY-2007;   ;   ;Symptomatic Anemia                                                                                         ;1;1;.;17-MAY-2007;1;1;1;04-MAY-2007
+67;30;18/jul/2007;   ;   ;symptomatic microcytic anemia                                                                              ;2;1;.;24/jul/2007;1;1;1;19/jul/2007
+68;30;10/jul/2007;   ;   ;chest pain                                                                                                 ;1;1;.;24/jul/2007;2;1;1;11/jul/2007
+69;30;25/feb/2007;   ;   ;Chest pain                                                                                                 ;1;1;.;26/feb/2007;1;1;3;.
+69;30;25/feb/2007;   ;   ;chest pain                                                                                                 ;1;2;1;26/feb/2007;1;1;1;27/feb/2007
+70;30;08/abr/2007;   ;   ;chest pain                                                                                                 ;1;1;.;11/abr/2007;1;1;1;10/abr/2007
+70;30;24/jul/2007;   ;   ;Non specific chest pain                                                                                    ;2;1;.;26/jul/2007;4;1;1;25/jul/2007
+71;30;05/jul/2007;   ;   ;chest pain                                                                                                 ;1;1;.;30/sep/2007;1;1;1;08/jul/2007
+72;30;07/jun/2007;   ;   ;Atrial Fibrillation                                                                                        ;1;1;.;10/jun/2007;1;1;1;11/jun/2007
+72;30;30/jun/2007;   ;   ;Hiccups                                                                                                    ;2;1;.;09-OCT-2007;1;1;1;03/jul/2007
+73;30;28/ene/2007;   ;   ;Instent Restenosis.                                                                                        ;1;1;.;28/ene/2007;3;1;1;30/ene/2007
+74;30;11/mar/2007;   ;   ;Chest Pain                                                                                                 ;1;1;.;18/mar/2007;1;1;1;11/mar/2007
+75;30;04/abr/2007;   ;   ;Atypical Chest Pain                                                                                        ;1;1;.;25/abr/2007;1;1;1;04/abr/2007
+76;30;22/abr/2007;   ;   ;Atrial Fibrillation                                                                                        ;1;1;.;22/abr/2007;1;1;1;01-MAY-2007
+77;30;17/jul/2007;   ;   ;Fracture of ramus pubis superior right                                                                     ;1;1;.;06/ago/2007;1;1;1;03/ago/2007
+78;30;21-DEC-2007;   ;   ;Acute MI                                                                                                   ;1;1;.;23-DEC-2007;1;1;1;24-DEC-2007
+79;30;06/ene/2007;2;   ;Unstable Angina                                                                                            ;1;1;.;09/ene/2007;1;1;1;09/ene/2007
+80;30;08/abr/2007;   ;   ;Unstable Angina                                                                                            ;1;1;.;18-DEC-2007;4;1;1;11/abr/2007
+81;30;02-OCT-2007;   ;   ;Atypical chest pain                                                                                        ;1;1;.;18-DEC-2007;1;1;1;08-OCT-2007
+82;30;11/ene/2007;2;   ;Left proximal ureteral stone                                                                               ;1;1;.;24/ene/2007;1;1;1;16/ene/2007
+82;30;18/ene/2007;2;   ;Macrohematuria                                                                                             ;2;1;.;24/ene/2007;1;1;1;24/ene/2007
+82;30;04/feb/2007;   ;   ;SUSPECTED UROSEPSIS                                                                                        ;3;1;.;31-MAY-2007;1;1;1;07/feb/2007
+83;30;21/ene/2007;   ;   ;re-hospitaliation  for chest pains                                                                         ;1;1;.;21/jun/2007;1;1;1;22/ene/2007
+84;40;08-MAY-2007;   ;   ;de novo angina                                                                                             ;1;1;.;11-MAY-2007;3;1;1;08-MAY-2007
+85;40;05/ene/2007;2;   ;ventricular fibrillation                                                                                   ;1;1;.;05/ene/2007;1;1;1;05/ene/2007
+86;40;04/ene/2007;   ;   ;salmonelengastrenteritis                                                                                   ;1;1;.;04/abr/2007;1;1;1;10/feb/2007
+87;40;21/mar/2007;   ;   ;i-stent-restenosis, progression of disease                                                                 ;1;1;.;21/mar/2007;3;1;1;21/mar/2007
+88;40;26/mar/2007;   ;   ;in-stent-restenosis                                                                                        ;1;1;.;26/mar/2007;3;1;1;26/mar/2007
+89;40;02/abr/2007;   ;   ;n. vesicae                                                                                                 ;2;1;.;25/abr/2007;1;1;2;10/abr/2007
+90;40;27/abr/2007;   ;   ;very late stent thrombosis                                                                                 ;1;1;.;27/abr/2007;4;1;1;27/abr/2007
+90;40;06/sep/2007;   ;   ;exacerbation of COPD                                                                                       ;2;1;.;06/sep/2007;1;1;1;14/sep/2007
+91;40;22/mar/2007;   ;   ;urinary passage infection                                                                                  ;2;1;.;16/abr/2007;1;1;1;03/abr/2007
+92;40;13/sep/2007;   ;   ;in stent restenosis                                                                                        ;3;1;.;17/sep/2007;4;1;1;13/sep/2007
+93;40;14/feb/2007;2;   ;angina pectoris                                                                                            ;2;1;.;14/feb/2007;4;1;1;14/feb/2007
+94;40;10/feb/2007;   ;   ;chest pain                                                                                                 ;1;1;.;16-OCT-2007;1;1;1;11/feb/2007
+95;40;24/mar/2007;   ;   ;angina pectoris                                                                                            ;1;1;.;14-DEC-2007;1;1;1;10-MAY-2007
+96;40;05/mar/2007;   ;   ;urinary bladder resection                                                                                  ;1;1;.;27/mar/2007;1;1;1;09/mar/2007
+97;40;02/ene/2007;   ;   ;pericarditis epistenocardica                                                                               ;1;1;.;05/ene/2007;1;1;1;03/ene/2007
+98;40;19/jun/2007;   ;   ;In stent restenosis                                                                                        ;1;1;.;19/jun/2007;.;1;1;19/jun/2007
+99;40;23/feb/2007;   ;   ;diarrhea                                                                                                   ;1;1;.;26/feb/2007;1;1;3;.
+99;40;13/mar/2007;   ;   ;angina pectoris                                                                                            ;2;1;.;13/mar/2007;1;1;1;13/mar/2007
+99;40;25/mar/2007;   ;   ;breast pain                                                                                                ;3;1;.;25/mar/2007;1;1;3;.
+99;40;01-MAY-2007;   ;   ;diarrhoe                                                                                                   ;4;1;.;02-MAY-2007;1;1;4;01-MAY-2007
+100;40;27/sep/2007;   ;   ;in-stent restenosis                                                                                        ;1;1;.;27/sep/2007;4;1;1;27/sep/2007
+101;40;28/nov/2007;   ;   ;in stent restenosis                                                                                        ;1;1;.;28/nov/2007;1;1;1;28/nov/2007
+102;40;12/mar/2007;   ;   ;hepatopathia                                                                                               ;1;1;.;27/mar/2007;1;1;1;19/mar/2007
+103;40;02/jul/2007;   ;   ;circulatory precollapse                                                                                    ;1;1;.;02/jul/2007;1;1;1;04/jul/2007
+104;40;03-MAY-2007;   ;   ;haemoptysis                                                                                                ;1;1;.;03-MAY-2007;1;3;1;03-MAY-2007
+104;40;07-MAY-2007;   ;   ;pericard tamponade                                                                                         ;2;1;.;07-MAY-2007;1;1;4;07-MAY-2007
+105;40;03-DEC-2007;   ;   ;cataract surgery L eye                                                                                     ;1;1;.;10-DEC-2007;1;1;1;08-DEC-2007
+106;40;25/jun/2007;   ;   ;in stent thrombosis                                                                                        ;1;1;.;02/jul/2007;1;1;1;28/jun/2007
+106;40;25/jun/2007;   ;   ;in stent thrombosis                                                                                        ;1;2;1;02/jul/2007;.;.;.;.
+106;40;25/jun/2007;   ;   ;STEMI                                                                                                      ;2;1;.;10/jul/2007;1;1;1;03/jul/2007
+107;40;26-OCT-2007;   ;   ;Acute coranary syndrom                                                                                     ;1;1;.;29-OCT-2007;1;1;3;.
+107;40;29-OCT-2007;   ;   ;acute coranary syndrom                                                                                     ;1;2;1;29-OCT-2007;1;1;1;07/nov/2007
+108;40;29/jun/2007;   ;   ;crescendo angina                                                                                           ;1;1;.;02/jul/2007;1;1;1;29/jun/2007
+109;40;24/mar/2007;   ;   ;cholysistitus                                                                                              ;1;1;.;22/ago/2007;1;1;1;02/abr/2007
+109;40;.;   ;   ;Cholecystitis                                                                                              ;1;2;1;22/ago/2007;.;.;.;.
+110;40;20/jun/2007;   ;   ;unstable angina                                                                                            ;1;1;.;24/jun/2007;1;1;1;23/jun/2007
+111;45;09/feb/2007;   ;   ;ischemic stroke                                                                                            ;1;1;.;11/feb/2007;1;1;3;.
+111;45;.;   ;   ;ischemic stroke                                                                                            ;1;2;1;11/feb/2007;.;.;2;20/mar/2007
+112;45;13-MAY-2007;   ;   ;heart failure (NYHA IV)                                                                                    ;1;1;.;13-MAY-2007;1;1;1;24-MAY-2007
+113;45;06-MAY-2007;   ;   ;septic shock                                                                                               ;1;1;.;07-MAY-2007;1;2;4;07-MAY-2007
+114;45;02-MAY-2007;   ;   ;micturition syncope                                                                                        ;1;1;.;02-MAY-2007;1;1;1;07-MAY-2007
+115;45;08/mar/2007;   ;   ;de-novo stenosis                                                                                           ;2;1;.;26/abr/2007;1;1;1;09/mar/2007
+116;45;15-MAY-2007;   ;   ;pathol. stress ECG (ergometrie)                                                                            ;2;1;.;15-MAY-2007;1;1;1;16-MAY-2007
+117;45;30-MAY-2007;   ;   ;Angina  pectoris                                                                                           ;1;1;.;08/jun/2007;1;1;1;08/jun/2007
+117;45;20-DEC-2007;   ;   ;Dyspnoea                                                                                                   ;2;1;.;20-DEC-2007;.;1;1;20-DEC-2007
+118;45;02/ene/2007;2;   ;atypical angina pectoris                                                                                   ;1;1;.;12/ene/2007;1;1;1;03/ene/2007
+118;45;21/feb/2007;1;1;de novo stenosis                                                                                           ;2;1;.;21/feb/2007;3;1;1;22/feb/2007
+119;45;11/ene/2007;   ;   ;Asymptomatic Instent-Restenosis                                                                            ;1;1;.;11/ene/2007;3;1;1;11/ene/2007
+120;45;10/ene/2007;2;   ;Asymptomatic stenosis                                                                                      ;3;1;.;10/ene/2007;1;1;1;10/ene/2007
+121;45;16/ene/2007;2;   ;Asymptomatic restenosis of non-study-stent.                                                                ;1;1;.;16/ene/2007;1;1;1;16/ene/2007
+122;45;23/ene/2007;2;   ;In-stent restenosis of non-study stent                                                                     ;2;1;.;23/ene/2007;1;1;1;23/ene/2007
+123;45;08/feb/2007;2;   ;asymptomatic occlusion of study stents                                                                     ;2;1;.;08/feb/2007;3;1;1;08/feb/2007
+124;45;07/feb/2007;2;   ;stenosis CASS#11/12                                                                                        ;1;1;.;07/feb/2007;1;1;1;07/feb/2007
+125;45;06/mar/2007;   ;   ;stenosis CASS #1                                                                                           ;1;1;.;06/mar/2007;1;1;1;06/mar/2007
+126;45;13/mar/2007;   ;   ;Progressive stenosis at CASS#4                                                                             ;1;1;.;13/mar/2007;1;1;1;13/mar/2007
+126;45;02/ago/2007;   ;   ;Unstable angina                                                                                            ;2;1;.;22/ago/2007;1;1;1;22/ago/2007
+123;45;04/sep/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;04/sep/2007;3;1;1;04/sep/2007
+124;45;30/mar/2007;   ;   ;asymptomatic study-instent-restenosis                                                                      ;1;1;.;30/mar/2007;3;1;1;30/mar/2007
+125;45;22/mar/2007;   ;   ;stenosis CASS # 18,5                                                                                       ;1;1;.;22/mar/2007;1;1;1;22/mar/2007
+126;45;31-MAY-2007;   ;   ;Stable angina                                                                                              ;2;1;.;29/ago/2007;1;1;1;22/jun/2007
+127;45;24/abr/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;24/abr/2007;1;1;1;24/abr/2007
+128;45;24/abr/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;24/abr/2007;1;1;1;24/abr/2007
+129;45;10/jul/2007;   ;   ;Asymptomatic restenosis                                                                                    ;1;1;.;10/jul/2007;3;1;1;10/jul/2007
+130;45;08-MAY-2007;   ;   ;In-stent-restenosis CASS #2                                                                                ;1;1;.;08-MAY-2007;3;1;1;08-MAY-2007
+131;45;02/abr/2007;   ;   ;Heart failure NYHA III                                                                                     ;2;1;.;02/abr/2007;1;1;1;14/abr/2007
+132;45;15-MAY-2007;   ;   ;Instent-restenosis CASS #2                                                                                 ;1;1;.;15-MAY-2007;3;1;1;15-MAY-2007
+133;45;29-MAY-2007;   ;   ;Asymptomatic restenosis                                                                                    ;1;1;.;29-MAY-2007;3;1;1;29-MAY-2007
+134;45;08-MAY-2007;   ;   ;in-stent-restenosis CASS #12                                                                               ;1;1;.;08-MAY-2007;3;1;1;08-MAY-2007
+135;45;16-MAY-2007;   ;   ;stenosis CASS #3 and CASS #20                                                                              ;1;1;.;16-MAY-2007;1;1;1;16-MAY-2007
+136;45;29-MAY-2007;   ;   ;Progression of stenosis requiring TVR                                                                      ;1;1;.;30-MAY-2007;1;1;1;29-MAY-2007
+137;45;30-MAY-2007;   ;   ;Asymptomatic progressive stenosis                                                                          ;1;1;.;30-MAY-2007;1;1;1;30-MAY-2007
+138;45;25/abr/2007;   ;   ;Asymptomatic restenosis                                                                                    ;1;1;.;25/abr/2007;3;1;1;26/abr/2007
+139;45;29/jun/2007;   ;   ;Asymptomatic in-stent-restenosis                                                                           ;1;1;.;29/jun/2007;3;1;1;29/jun/2007
+140;45;28/feb/2007;   ;   ;unstable angina                                                                                            ;2;1;.;28/feb/2007;1;1;1;02/mar/2007
+141;45;04/sep/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;04/sep/2007;1;1;1;04/sep/2007
+142;45;31/ago/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;31/ago/2007;1;1;1;31/ago/2007
+143;45;21/sep/2007;   ;   ;Asymptomatic instent-restenosis                                                                            ;1;1;.;21/sep/2007;3;1;1;21/sep/2007
+144;45;20/sep/2007;   ;   ;Asymptomatic stenosis                                                                                      ;1;1;.;20/sep/2007;1;1;1;20/sep/2007
+145;45;21-MAY-2007;   ;   ;stenosis                                                                                                   ;1;1;.;31/jul/2007;1;1;1;31-MAY-2007
+146;45;17/jul/2007;   ;   ;Instent-Restenosis  CASS 13                                                                                ;1;1;.;15/ago/2007;3;1;1;17/jul/2007
+147;45;26/sep/2007;   ;   ;vessel occlusion                                                                                           ;1;1;.;26/sep/2007;1;1;1;26/sep/2007
+148;45;24-MAY-2007;   ;   ;dyspnoe                                                                                                    ;1;1;.;28/ago/2007;1;1;1;14/jun/2007
+149;45;21/ene/2007;2;   ;Unstable angina                                                                                            ;1;1;.;22/ene/2007;1;1;1;21/ene/2007
+149;45;28/sep/2007;   ;   ;Asymptomatic stenosis CASS 12                                                                              ;2;1;.;28/sep/2007;1;1;1;28/sep/2007
+150;45;12/ago/2007;   ;   ;anemia                                                                                                     ;1;1;.;12/ago/2007;1;1;1;16/ago/2007
+151;45;18-OCT-2007;   ;   ;Asymptomatic stenosis CASS#12 and #13                                                                      ;1;1;.;18-OCT-2007;1;1;1;18-OCT-2007
+152;45;15-OCT-2007;   ;   ;Asymptomatic instent-restenosis CASS #20                                                                   ;2;1;.;15-OCT-2007;3;1;1;15-OCT-2007
+153;45;17-OCT-2007;   ;   ;Asymptomatic instent-restenosis CASS #2                                                                    ;1;1;.;17-OCT-2007;3;1;1;17-OCT-2007
+154;45;24/ene/2007;   ;   ;malignancy left esophageal                                                                                 ;1;1;.;18/abr/2007;1;1;4;09/jul/2007
+155;45;13/nov/2007;   ;   ;Asymptomatic restenosis CASS #12                                                                           ;1;1;.;13/nov/2007;3;1;1;13/nov/2007
+156;45;07/feb/2007;   ;   ;aneurysm right mid cerebral artery                                                                         ;1;1;.;17/abr/2007;1;1;1;13/feb/2007
+157;45;17/feb/2007;   ;   ;atrial flutter                                                                                             ;1;1;.;10-MAY-2007;1;1;1;20/feb/2007
+158;45;18/feb/2007;   ;   ;multiple organ failure                                                                                     ;1;1;.;12/mar/2007;1;1;4;18/feb/2007
+159;45;21/mar/2007;   ;   ;carotis stenosis                                                                                           ;1;1;.;06/jun/2007;1;1;1;05/mar/2007
+160;45;02/ene/2007;1;1;Tachyarrythmia absoluta                                                                                    ;1;1;.;03/ene/2007;1;1;1;11/ene/2007
+161;45;02/ene/2007;   ;   ;sudden cardiac death                                                                                       ;1;1;.;04/ene/2007;3;2;4;02/ene/2007
+162;45;03/ago/2007;   ;   ;unstable angina                                                                                            ;1;1;.;07/ago/2007;1;1;1;07/ago/2007
+162;45;17/nov/2007;   ;   ;Bigeminus                                                                                                  ;2;1;.;17/nov/2007;1;1;3;.
+163;45;24/jul/2007;   ;   ;sigmacarcinoma                                                                                             ;1;1;.;17/ago/2007;1;1;3;.
+163;45;24/jul/2007;   ;   ;sigmacarcinoma                                                                                             ;1;2;1;17/ago/2007;1;1;3;.
+163;45;24/sep/2007;   ;   ;instent-restenosis                                                                                         ;2;1;.;01-OCT-2007;3;1;1;01-OCT-2007
+164;45;20/jun/2007;   ;   ;abdominal aorta anerysm                                                                                    ;1;1;.;26/jul/2007;1;1;1;02/ago/2007
+164;45;21/mar/2007;   ;   ;Iliaca externa occlusion                                                                                   ;1;1;.;26/mar/2007;1;1;1;21/mar/2007
+165;45;10-DEC-2007;   ;   ;atypical chest pain                                                                                        ;1;1;.;10-DEC-2007;1;1;1;12-DEC-2007
+166;45;23/mar/2007;   ;   ;Spiral dissection                                                                                          ;1;1;.;23/mar/2007;1;1;1;23/mar/2007
+167;45;16-MAY-2007;   ;   ;suspicion of reinfarct                                                                                     ;1;1;.;16-MAY-2007;1;1;1;19-MAY-2007
+168;45;16/abr/2007;   ;   ;diverticulosis                                                                                             ;1;1;.;16/abr/2007;1;1;3;.
+168;45;.;   ;   ;diverticulosis                                                                                             ;1;2;1;16/abr/2007;.;.;1;03-MAY-2007
+168;45;25/abr/2007;   ;   ;STEMI                                                                                                      ;2;1;.;25/abr/2007;1;1;1;03-MAY-2007
+167;45;02/ene/2007;   ;   ;cholangitis                                                                                                ;1;1;.;16/abr/2007;1;1;1;12/ene/2007
+168;45;.;   ;   ;bronchogenic carcinoma                                                                                     ;2;1;.;23/abr/2007;1;1;3;.
+168;45;.;   ;   ;bronchogenic carcinoma                                                                                     ;2;2;1;23/abr/2007;.;.;4;19-MAY-2007
+169;45;18-MAY-2007;   ;   ;bronchogenic carcinoma                                                                                     ;1;1;.;01-OCT-2007;1;1;4;23/jul/2007
+170;45;07/ene/2007;   ;   ;stroke                                                                                                     ;1;1;.;15/ene/2007;1;1;1;16/ene/2007
+171;45;20/feb/2007;   ;   ;thoracic pain                                                                                              ;1;1;.;20/feb/2007;1;1;1;21/feb/2007
+171;45;06/mar/2007;   ;   ;stable angina                                                                                              ;2;1;.;13/mar/2007;1;1;1;08/mar/2007
+172;45;26/feb/2007;   ;   ;major bleeding after CABG                                                                                  ;1;1;.;26/feb/2007;1;2;1;.
+172;45;28/feb/2007;   ;   ;intracranial bleeding                                                                                      ;2;1;.;28/feb/2007;1;1;4;01/mar/2007
+173;45;17/abr/2007;   ;   ;aortal dissection                                                                                          ;1;1;.;17/abr/2007;1;1;3;.
+173;45;.;   ;   ;aortal dissection                                                                                          ;1;2;1;17/abr/2007;.;.;4;20/abr/2007
+174;45;03/jun/2007;   ;   ;Re-STEMI                                                                                                   ;1;1;.;04/jun/2007;4;1;1;12/jun/2007
+175;45;02-DEC-2007;   ;   ;STEMI                                                                                                      ;1;1;.;02/ene/2008;1;1;.;.
+176;45;.;   ;   ;Progressive peripheral arterial disease.                                                                   ;1;1;.;10/abr/2007;1;1;3;.
+177;45;23-MAY-2007;   ;   ;In-Stent-Restenosis                                                                                        ;1;1;.;14/jun/2007;1;1;1;23-MAY-2007
+178;45;23/jul/2007;   ;   ;Suspected progress of CAD                                                                                  ;3;1;.;30/jul/2007;1;1;1;25/jul/2007
+179;45;09/ene/2007;1;2;De-novo left main stenosis                                                                                 ;1;1;.;09/ene/2007;1;1;1;09/ene/2007
+180;45;31/jul/2007;   ;   ;Chronically occluded RCA.                                                                                  ;1;1;.;01/ago/2007;1;1;1;31/jul/2007
+180;45;02/ago/2007;   ;   ;Occluded bilateral sup. femoral arteries.                                                                  ;2;1;.;07/ago/2007;1;1;2;02/ago/2007
+181;45;16/ene/2007;2;   ;Ventricular bigeminus                                                                                      ;2;1;.;23/ene/2007;1;1;1;24/ene/2007
+182;45;09/jul/2007;   ;   ;Recurrent Angina                                                                                           ;1;1;.;09/jul/2007;4;2;1;12/jul/2007
+183;45;06/nov/2007;   ;   ;70%in-stent-stenosis of prox. LAD                                                                          ;1;1;.;06/nov/2007;5;1;1;08/nov/2007
+184;45;06/feb/2007;1;2;acute dyspnea                                                                                              ;1;1;.;13/feb/2007;1;1;1;14/feb/2007
+185;45;04/feb/2007;2;   ;Suspected ACS                                                                                              ;1;1;.;21/feb/2007;1;1;1;07/feb/2007
+185;45;12/abr/2007;   ;   ;Late stent thrombosis.                                                                                     ;2;1;.;12/abr/2007;5;1;3;.
+185;45;12/abr/2007;   ;   ;Late stent thrombosis.                                                                                     ;2;2;1;12/abr/2007;.;.;1;19/abr/2007
+186;45;01/jun/2007;   ;   ;Recurrent angina pectoris                                                                                  ;1;1;.;09/jul/2007;1;1;1;10/jul/2007
+187;45;27-OCT-2007;   ;   ;Pancytopenia because of Methotrexat therapy                                                                ;4;1;.;13/nov/2007;1;1;3;.
+187;45;30-OCT-2007;   ;   ;Pleurisy                                                                                                   ;5;1;.;13/nov/2007;1;1;1;25/nov/2007
+187;45;07/nov/2007;   ;   ;re-infarction                                                                                              ;6;1;.;13/nov/2007;5;1;1;08/nov/2007
+187;45;09/nov/2007;   ;   ;Macrohaematurie because of indwelling catheter                                                             ;7;1;.;13/nov/2007;1;1;1;11/nov/2007
+187;45;10/nov/2007;   ;   ;suspicion of pneumonia                                                                                     ;8;1;.;13/nov/2007;1;1;1;25/nov/2007
+187;45;02/ago/2007;   ;   ; Recidive of acute angiooedema                                                                             ;1;1;.;09/ago/2007;2;1;1;05/ago/2007
+188;45;28-MAY-2007;   ;   ;Myocard infarction                                                                                         ;1;1;.;29-MAY-2007;3;1;1;04/jun/2007
+189;45;02/jul/2007;   ;   ;Instent-Restenose (Target lesion)                                                                          ;1;1;.;13/jul/2007;3;1;1;04/jul/2007
+190;45;08/abr/2007;   ;   ;stable angina pectoris                                                                                     ;1;1;.;02-MAY-2007;1;1;1;10/abr/2007
+191;45;16/ene/2007;1;2;atypical chest pain                                                                                        ;2;1;.;17/ene/2007;1;1;1;17/ene/2007
+192;45;18/mar/2007;   ;   ;hypertensive dysregulation                                                                                 ;2;1;.;18/mar/2007;1;1;1;19/mar/2007
+192;45;03/abr/2007;   ;   ;dyspnea                                                                                                    ;3;1;.;05/abr/2007;1;1;1;05/abr/2007
+193;45;29-MAY-2007;   ;   ;target vessel reocclusion                                                                                  ;4;1;.;29-MAY-2007;4;1;1;29-MAY-2007
+193;45;20/jul/2007;   ;   ;recurrence of schizophrenia                                                                                ;5;1;.;26/jul/2007;1;1;1;25/jul/2007
+194;45;12/abr/2007;   ;   ;acute inferior MI                                                                                          ;2;1;.;12/abr/2007;1;1;2;12/abr/2007
+195;45;10/ene/2007;   ;   ;unstable angina pectoris                                                                                   ;1;1;.;02/jul/2007;1;1;1;10/ene/2007
+196;45;28/ago/2007;   ;   ;prgnostic catheterization                                                                                  ;1;1;.;29/ago/2007;1;1;1;29/ago/2007
+197;45;12/ago/2007;   ;   ;stable angina                                                                                              ;1;1;.;13/ago/2007;1;1;1;13/ago/2007
+198;45;03/jul/2007;   ;   ;3-Vessel-Disease                                                                                           ;4;1;.;30/jul/2007;1;1;1;11/jul/2007
+199;45;23/abr/2007;   ;   ;NSTEMI                                                                                                     ;5;1;.;24/abr/2007;1;1;1;02-MAY-2007
+199;45;31/jul/2007;   ;   ;Hypertensive crisis                                                                                        ;6;1;.;16/ago/2007;1;1;1;03/ago/2007
+199;45;02/abr/2007;   ;   ;Highgrade Stenosis in the D1-Branch                                                                        ;1;1;.;02/abr/2007;1;1;1;02/abr/2007
+200;45;13/jul/2007;   ;   ;renewed angina pectoris                                                                                    ;1;1;.;31/jul/2007;1;1;1;23/jul/2007
+201;45;23/feb/2007;   ;   ;re-Infarction                                                                                              ;1;1;.;23/feb/2007;1;1;3;.
+201;45;04/mar/2007;   ;   ;ventricular fibrillation                                                                                   ;2;1;.;04/mar/2007;1;1;4;04/mar/2007
+201;45;24/feb/2007;   ;   ;renal failure                                                                                              ;3;1;.;24/feb/2007;1;1;3;.
+202;45;12/abr/2007;   ;   ;Acute left coronary insufficiency                                                                          ;1;1;.;13/abr/2007;1;1;1;12/abr/2007
+202;45;12/abr/2007;   ;   ;Re-Infarction                                                                                              ;2;1;.;27/abr/2007;2;1;1;12/abr/2007
+202;45;12/abr/2007;   ;   ;pulmonary oedema                                                                                           ;3;1;.;16/ago/2007;1;1;1;23/abr/2007
+202;45;12/abr/2007;   ;   ;Cardiogenic shock                                                                                          ;4;1;.;16/ago/2007;1;1;1;23/abr/2007
+202;45;12/abr/2007;   ;   ;ARDS                                                                                                       ;5;1;.;16/ago/2007;1;1;1;23/abr/2007
+202;45;12/abr/2007;   ;   ;ANV (Acute Renal Failure)                                                                                  ;6;1;.;16/ago/2007;1;1;1;23/abr/2007
+202;45;14/abr/2007;   ;   ;Multi organ failure                                                                                        ;7;1;.;27/abr/2007;2;1;1;23/abr/2007
+203;45;10/mar/2007;   ;   ;Ventricular fibrillation                                                                                   ;1;1;.;10/mar/2007;2;1;1;10/mar/2007
+204;45;02/abr/2007;   ;   ;haematoma                                                                                                  ;1;1;.;14/ago/2007;1;1;1;19/abr/2007
+205;45;05/abr/2007;   ;   ;Stent -thrombosis                                                                                          ;1;1;.;05/abr/2007;4;3;1;05/abr/2007
+206;45;08/ene/2007;   ;   ;unstable angina                                                                                            ;1;1;.;08/ene/2007;1;1;1;10/ene/2007
+206;45;12/abr/2007;   ;   ;angina pectoris                                                                                            ;2;1;.;17/abr/2007;1;1;1;18/abr/2007
+207;45;12/abr/2007;   ;   ;Diverticulitis                                                                                             ;1;1;.;12/abr/2007;1;1;1;21/abr/2007
+208;45;01/feb/2007;   ;   ;angina pectoris                                                                                            ;1;1;.;05/jun/2007;1;1;1;06/feb/2007
+208;45;24-MAY-2007;   ;   ;pleural effusion                                                                                           ;2;1;.;06/jun/2007;1;1;1;30-MAY-2007
+208;45;05/ago/2007;   ;   ;Hypoglycemic shock                                                                                         ;3;1;.;09/ago/2007;1;1;1;07/ago/2007
+208;45;05/ago/2007;   ;   ;Pneumonia                                                                                                  ;4;1;.;09/ago/2007;1;1;1;07/ago/2007
+208;45;06/feb/2007;   ;   ;unstable angina pectoris                                                                                   ;5;1;.;05/jun/2007;1;1;1;06/feb/2007
+209;45;20/sep/2007;   ;   ;renal artery stenosis                                                                                      ;2;1;.;21/sep/2007;1;1;3;.
+209;45;28/nov/2007;   ;   ;renal artery stenosis                                                                                      ;2;2;1;05-DEC-2007;1;1;1;29/nov/2007
+210;45;20/ago/2007;   ;   ;stable angina                                                                                              ;1;1;.;21/ago/2007;1;1;1;21/ago/2007
+210;45;20/feb/2007;   ;   ;Adenocarcinoma                                                                                             ;2;1;.;21/ago/2007;1;1;3;.
+210;45;.;   ;   ;Adenocarcinoma                                                                                             ;2;2;1;21/ago/2007;.;.;1;13/mar/2007
+210;45;15/mar/2007;   ;   ;peritonitis induced by E-coli bacteroids                                                                   ;3;1;.;21/ago/2007;1;1;1;30/mar/2007
+211;45;16-MAY-2007;   ;   ;instable angina pectroris                                                                                  ;1;1;.;23-MAY-2007;1;1;1;19-MAY-2007
+212;45;10/abr/2007;   ;   ;Angina Pectoris                                                                                            ;1;1;.;07/sep/2007;1;1;1;10/abr/2007
+213;45;19/feb/2007;   ;   ;severe coronary artery disease                                                                             ;2;1;.;12/abr/2007;1;1;1;24/feb/2007
+213;45;23/ago/2007;   ;   ;cardial decompensation                                                                                     ;3;1;.;05-OCT-2007;1;1;1;23/ago/2007
+214;45;15-MAY-2007;   ;   ;pulmonary hypertension                                                                                     ;4;1;.;09/nov/2007;1;1;1;18-MAY-2007
+215;45;23-OCT-2007;   ;   ;cholecystitis                                                                                              ;1;1;.;09-OCT-2007;1;1;1;30-OCT-2007
+216;45;29/mar/2007;   ;   ;stable angina pectoris                                                                                     ;1;1;.;05/jul/2007;1;1;1;30/mar/2007
+217;45;13/ene/2007;1;2;respiratory insufficiency                                                                                  ;1;1;.;19/ene/2007;2;1;4;13/ene/2007
+218;45;30/abr/2007;   ;   ;unstable angina                                                                                            ;1;1;.;02-MAY-2007;2;1;1;02-MAY-2007
+218;45;30/abr/2007;   ;   ;pneumonie                                                                                                  ;2;1;.;23-MAY-2007;1;1;1;08-MAY-2007
+219;45;25/ene/2007;   ;   ;multiple rib fracture                                                                                      ;1;1;.;17-DEC-2007;1;1;1;30/ene/2007
+220;45;20-MAY-2007;   ;   ;angina pectoris                                                                                            ;1;1;.;23-MAY-2007;1;1;1;23-MAY-2007
+220;45;29/nov/2007;   ;   ;Dyspnoe                                                                                                    ;2;1;.;29/nov/2007;1;1;1;08-DEC-2007
+221;45;03/jun/2007;   ;   ;ventrikular tachykardia                                                                                    ;1;1;.;04/jun/2007;1;1;3;.
+221;45;.;   ;   ;ventricular tachycardia                                                                                    ;1;2;1;04/jun/2007;.;.;3;.
+221;45;14/jun/2007;   ;   ;ventricular fibrilation                                                                                    ;2;1;.;18-OCT-2007;1;1;1;14/jun/2007
+221;45;15/jun/2007;   ;   ;ventricular fibrillation                                                                                   ;3;1;.;18-OCT-2007;1;1;1;15/jun/2007
+221;45;16/jun/2007;   ;   ;ventricular fibrillation                                                                                   ;4;1;.;18-OCT-2007;1;1;1;16/jun/2007
+221;45;01/jul/2007;   ;   ;chronic breathing depression                                                                               ;5;1;.;18-OCT-2007;1;1;1;01-OCT-2007
+221;45;08/jul/2007;   ;   ;subarachnoidal bleeding                                                                                    ;6;1;.;18-OCT-2007;1;1;1;18/sep/2007
+222;45;11/feb/2007;   ;   ;ventricular fibrillation                                                                                   ;1;1;.;12/mar/2007;1;1;1;11/feb/2007
+222;45;05/ago/2007;   ;   ;suspicion on gastritis                                                                                     ;2;1;.;06/ago/2007;1;1;1;07/ago/2007
+223;45;26/mar/2007;   ;   ;alcoholic disease                                                                                          ;1;1;.;20/abr/2007;1;1;1;02/abr/2007
+224;45;28-MAY-2007;   ;   ;stroke                                                                                                     ;1;1;.;01/jun/2007;1;1;3;.
+224;45;.;   ;   ;stroke                                                                                                     ;1;2;1;01/jun/2007;.;.;1;07/jun/2007
+225;45;02-MAY-2007;   ;   ;unstable angina                                                                                            ;1;1;.;14-MAY-2007;1;1;1;07-MAY-2007
+225;45;19/jul/2007;   ;   ;Psychic disorder                                                                                           ;2;1;.;10-OCT-2007;1;1;1;26/jul/2007
+226;45;17/abr/2007;   ;   ;Anemia                                                                                                     ;1;1;.;17/abr/2007;1;1;1;24/abr/2007
+227;45;24-MAY-2007;   ;   ;pain right leg /neurologic                                                                                 ;1;1;.;29-MAY-2007;1;1;1;26-MAY-2007
+228;45;21-MAY-2007;   ;   ;Dyspnoe                                                                                                    ;1;1;.;29-MAY-2007;1;1;1;22-MAY-2007
+229;45;19/feb/2007;   ;   ;dilatative cardiomyophty                                                                                   ;1;1;.;19/feb/2007;1;1;2;19/feb/2007
+230;45;05/mar/2007;   ;   ;unstable Angina                                                                                            ;1;1;.;07/mar/2007;1;1;1;14/mar/2007
+231;45;13/abr/2007;   ;   ;Re - myocardial infarction                                                                                 ;1;1;.;13/abr/2007;3;1;3;.
+231;45;13/abr/2007;   ;   ;Re-myocardial infarktion                                                                                   ;1;2;1;13/abr/2007;3;1;1;14/abr/2007
+231;45;13/abr/2007;   ;   ;cardiogenic shock                                                                                          ;2;1;.;13/abr/2007;1;1;4;14/abr/2007
+231;45;13/abr/2007;   ;   ;ventricular fibrilation                                                                                    ;3;1;.;24-MAY-2007;1;1;1;13/abr/2007
+231;45;13/abr/2007;   ;   ;diverse arrythmia                                                                                          ;4;1;.;24-MAY-2007;1;1;1;13/abr/2007
+232;45;14-MAY-2007;   ;   ;cardiogenic shock                                                                                          ;1;1;.;15-MAY-2007;1;1;3;.
+232;45;14-MAY-2007;   ;   ;cardiogenic shock                                                                                          ;1;2;1;15-MAY-2007;.;.;1;26-MAY-2007
+232;45;14-MAY-2007;   ;   ;ventricular fibrillation                                                                                   ;2;1;.;22-MAY-2007;1;1;1;14-MAY-2007
+233;45;04-MAY-2007;   ;   ;ventricular tachycardia                                                                                    ;1;1;.;09-MAY-2007;1;1;1;09-MAY-2007
+233;45;04-MAY-2007;   ;   ;three degree atrioventricular block                                                                        ;2;1;.;09-MAY-2007;1;1;1;09-MAY-2007
+234;55;08/feb/2007;2;   ;heart failure                                                                                              ;6;1;.;09/feb/2007;1;1;3;.
+234;55;.;   ;   ;heart failure                                                                                              ;6;2;1;09/feb/2007;.;.;1;13/feb/2007
+234;55;01/mar/2007;   ;   ;acute renal failure                                                                                        ;7;1;.;05/mar/2007;1;1;1;04/mar/2007
+235;55;23/ene/2007;2;   ;atypical chest pain                                                                                        ;2;1;.;26/ene/2007;2;1;1;26/ene/2007
+236;55;30/ene/2007;   ;   ;Chest Pain                                                                                                 ;1;1;.;31/ene/2007;1;1;3;.
+236;55;.;   ;   ;Chest Pain                                                                                                 ;1;2;1;31/ene/2007;1;1;3;.
+236;55;.;   ;   ;Chest Pain                                                                                                 ;1;2;2;31/ene/2007;.;.;1;20/nov/2007
+237;55;02/feb/2007;   ;   ;Major Bleeding                                                                                             ;1;1;.;14/jun/2007;1;4;1;04/feb/2007
+238;55;14/ene/2007;   ;   ;hepatocarcinoma                                                                                            ;1;1;.;20/feb/2007;2;2;3;.
+239;55;13/feb/2007;   ;   ;major bleeding                                                                                             ;1;1;.;21/feb/2007;1;2;1;20/feb/2007
+240;55;01/abr/2007;   ;   ;Heart Failure                                                                                              ;2;1;.;15/jun/2007;1;1;1;16/abr/2007
+240;55;01/abr/2007;   ;   ;heart failure                                                                                              ;2;2;1;15/jun/2007;.;.;.;.
+241;55;.;   ;   ;malign epitelioma of sygma-rectum with hepatic metastasis                                                  ;1;2;1;27/feb/2007;.;.;3;.
+242;55;14/feb/2007;   ;   ;retrosternal pain                                                                                          ;1;1;.;15/feb/2007;2;1;3;.
+242;55;.;   ;   ;retrosternal pain                                                                                          ;1;2;1;15/feb/2007;3;.;1;19/feb/2007
+243;55;29/abr/2007;   ;   ;reinfarction                                                                                               ;1;1;.;29/abr/2007;5;1;1;29/abr/2007
+243;55;01-MAY-2007;   ;   ;unstable angina                                                                                            ;2;1;.;02-MAY-2007;1;1;1;02-MAY-2007
+244;55;10/ene/2007;   ;   ;precordalgia                                                                                               ;1;1;.;17/ene/2007;1;1;1;13-MAY-2007
+244;55;30/jun/2007;   ;   ;angina pectoris                                                                                            ;2;1;.;02/jul/2007;2;1;3;.
+245;55;26/ene/2007;2;   ;thoracic pain                                                                                              ;1;1;.;29/ene/2007;2;1;1;27/ene/2007
+246;55;29/ene/2007;2;   ;thoracic pain                                                                                              ;1;1;.;29/ene/2007;2;1;1;29/ene/2007
+247;55;03/feb/2007;   ;   ;reinfarction                                                                                               ;1;1;.;26/mar/2007;5;1;1;14/feb/2007
+248;65;07/feb/2007;   ;   ;ventricular fibrillation                                                                                   ;5;1;.;07/feb/2007;1;1;4;07/feb/2007
+249;65;18/jun/2007;   ;   ;atypical chest pain                                                                                        ;1;1;.;28/jun/2007;1;1;1;28/jun/2007
+250;65;27/sep/2007;   ;   ;PCI                                                                                                        ;1;1;.;03-OCT-2007;1;1;1;27/sep/2007
+251;65;31/mar/2007;   ;   ;gastro -intestinal bleeding                                                                                ;1;1;.;03-MAY-2007;1;1;1;05/abr/2007
+252;65;22/ene/2007;   ;   ;chest pain                                                                                                 ;1;1;.;21/mar/2007;1;1;1;21/feb/2007
+253;65;15/ene/2007;   ;   ;no reflow                                                                                                  ;1;1;.;01/mar/2007;1;1;1;15/ene/2007
+253;65;17/ene/2007;   ;   ;atriolfibrillation                                                                                         ;2;1;.;01/mar/2007;1;1;1;30-MAY-2007
+253;65;15/ene/2007;   ;   ;tamponade                                                                                                  ;3;1;.;01/mar/2007;1;1;1;15/ene/2007
+254;65;28/ene/2007;   ;   ;ventricular fibrillation                                                                                   ;1;1;.;04/abr/2007;1;1;1;28/ene/2007
+254;65;28/ene/2007;   ;   ;ventricular fibrillation                                                                                   ;2;1;.;04/abr/2007;1;1;1;28/ene/2007
+255;65;26/feb/2007;   ;   ;chest pain                                                                                                 ;1;1;.;17/abr/2007;1;1;1;27-MAY-2007
+256;65;15/abr/2007;   ;   ;ventricular fibrillation                                                                                   ;1;1;.;27/abr/2007;1;1;1;15/abr/2007
+257;65;05/sep/2007;   ;   ;pacemaker implantation                                                                                     ;1;1;.;17-OCT-2007;1;1;1;06/sep/2007
+258;65;23/feb/2007;   ;   ;Stable Angina.                                                                                             ;1;1;.;20/jul/2007;2;1;1;23/feb/2007
+259;65;26/jul/2007;   ;   ;Femoral bypass operation and too removal                                                                   ;1;1;.;15/ago/2007;1;1;2;27/jul/2007
+259;65;08/ago/2007;   ;   ;removal of a too                                                                                           ;2;1;.;15/ago/2007;1;1;2;08/ago/2007
+259;65;20/ago/2007;   ;   ;amputation  part of the feet                                                                               ;3;1;.;27/ago/2007;1;1;3;.
+260;65;02-MAY-2007;   ;   ;meleana                                                                                                    ;1;1;.;18-MAY-2007;1;1;1;08-MAY-2007
+261;70;05/feb/2007;   ;   ;non ST segment elevation myocardial infarction                                                             ;4;1;.;14/feb/2007;1;1;1;16/feb/2007
+262;70;08/mar/2007;   ;   ;myocardial ischaemia                                                                                       ;2;1;.;08/mar/2007;1;1;1;21/mar/2007
+262;70;08/mar/2007;   ;   ;myocardial ischaemia                                                                                       ;2;2;1;08/mar/2007;1;1;1;21/mar/2007
+262;70;08-MAY-2007;   ;   ;restenosis in target vessel                                                                                ;3;1;.;08-MAY-2007;1;1;3;.
+262;70;08-MAY-2007;   ;   ;restenosis in target vessel                                                                                ;3;2;1;08-MAY-2007;1;1;1;14-MAY-2007
+263;70;01-OCT-2007;   ;   ;coronary artery disease progression                                                                        ;1;1;.;01-OCT-2007;1;1;1;01-OCT-2007
+264;70;25-OCT-2007;   ;   ;acute heart failure                                                                                        ;1;1;.;19/nov/2007;1;1;4;26-OCT-2007
+265;70;06/ene/2007;   ;   ;worsenig of control of diabetes                                                                            ;3;1;.;26/abr/2007;1;1;1;07/ene/2007
+266;70;05/feb/2007;1;2;non-ST segment elevation myocardial infarction                                                             ;1;1;.;05/feb/2007;2;2;1;12/feb/2007
+267;70;11/abr/2007;   ;   ;reccurent angina                                                                                           ;1;1;.;26/abr/2007;1;1;1;21/abr/2007
+268;70;27/ene/2007;   ;   ;Myocardial infarction                                                                                      ;1;1;.;19/nov/2007;1;1;1;27/ene/2007
+268;70;27/jul/2007;   ;   ;Myocardial infarction                                                                                      ;2;1;.;19/nov/2007;1;1;1;27/jul/2007
+268;70;05/ago/2007;   ;   ;Myocardial infarction                                                                                      ;3;1;.;19/nov/2007;1;1;1;13/ago/2007
+269;70;28/jun/2007;   ;   ;Angina pectoris                                                                                            ;1;1;.;05-DEC-2007;3;1;1;29/jun/2007
+269;70;21/ago/2007;   ;   ;Major Bleeding after CABG                                                                                  ;2;1;.;05-DEC-2007;1;1;1;21/ago/2007
+269;70;03-OCT-2007;   ;   ;Myocardial infarction                                                                                      ;3;1;.;05-DEC-2007;1;1;1;03-OCT-2007
+270;70;21/jun/2007;   ;   ;stable angina                                                                                              ;1;1;.;21/jun/2007;1;1;1;21/jun/2007
+271;70;28/jun/2007;   ;   ;Restenosis of  LCx                                                                                         ;1;1;.;04/jul/2007;1;1;1;28/jun/2007
+272;70;24/jul/2007;   ;   ;Reinfarction-NSTEMI                                                                                        ;1;1;.;28/jul/2007;1;1;3;.
+272;70;24/jul/2007;   ;   ;Reinfarction-NSTEMI                                                                                        ;1;2;1;28/jul/2007;1;1;1;30/jul/2007
+273;70;05/jun/2007;   ;   ;NSTEMI                                                                                                     ;1;1;.;06/ago/2007;1;1;1;12/jun/2007
+274;70;13/ene/2007;   ;   ;Unstable angina                                                                                            ;2;1;.;26/abr/2007;1;1;1;22/ene/2007
+275;70;21/jun/2007;   ;   ;Exacerbation of congestive heart failure (NYHA class II).                                                  ;1;1;.;21/jun/2007;1;1;1;26/jun/2007
+276;70;20-OCT-2007;   ;   ;Hospitalization due to Disorder of Cerebral Circulation. Vascular encephalopathy. Thrombocytopenia. Anemia.;1;1;.;04-DEC-2007;1;2;3;.
+277;70;30-OCT-2007;   ;   ;Hospitalization due to haemorrhage from upper gastrointestinal tract. Thrombocytopenia. Anemia.            ;1;2;1;04-DEC-2007;1;2;4;14/nov/2007
+278;70;07-MAY-2007;   ;   ;Fluid in pericardium                                                                                       ;1;1;.;07-MAY-2007;1;2;1;18-MAY-2007
+279;70;10/feb/2007;1;2;reinfarction                                                                                               ;1;1;.;10/feb/2007;4;1;1;10/feb/2007
+280;70;23/feb/2007;   ;   ;pulmonary embolism                                                                                         ;1;1;.;29/jun/2007;1;1;2;06/mar/2007
+281;77;21/ago/2007;   ;   ;Significant TVR associated with persisting angina                                                          ;1;1;.;21/ago/2007;1;1;1;22/ago/2007
+282;77;18/jun/2007;   ;   ;Occlusion Aorta abdominalis                                                                                ;1;1;.;18/jun/2007;1;1;1;27/jun/2007
+283;77;11/sep/2007;   ;   ;Stenose in mid RCA                                                                                         ;1;1;.;11/sep/2007;1;1;1;12/sep/2007
+284;77;17/sep/2007;   ;   ;Instent restenosis at edge.                                                                                ;3;1;.;17/sep/2007;4;1;1;18/sep/2007
+285;77;30/jul/2007;   ;   ;Ulcus duodeni                                                                                              ;1;1;.;30/jul/2007;1;1;3;.
+285;77;30/jul/2007;   ;   ;ulus duodeni                                                                                               ;1;2;1;30/jul/2007;.;.;1;06/ago/2007
+286;77;29-OCT-2007;   ;   ;In stent restenosis                                                                                        ;1;1;.;29-OCT-2007;5;1;1;29-OCT-2007
+287;77;02/abr/2007;   ;   ;Urosepsis                                                                                                  ;2;1;.;19/jun/2007;1;1;1;13/abr/2007
+287;77;07/sep/2007;   ;   ;Fractura colli femoris                                                                                     ;3;1;.;07/sep/2007;1;1;1;10/sep/2007
+288;77;13/sep/2007;   ;   ;Acute MI                                                                                                   ;2;1;.;13/sep/2007;5;1;1;16/sep/2007
+289;77;23/mar/2007;   ;   ;Gastrites                                                                                                  ;2;1;.;02-MAY-2007;1;1;1;27/mar/2007
+289;77;01/jun/2007;   ;   ;Lumbago                                                                                                    ;3;1;.;11/jun/2007;1;1;1;04/jun/2007
+289;77;11/nov/2007;   ;   ;unspesific epigastric/chest pain                                                                           ;4;1;.;12/nov/2007;1;1;1;14/nov/2007
+290;77;24/abr/2007;   ;   ;cholelithiasis                                                                                             ;1;1;.;02-MAY-2007;1;1;1;30/abr/2007
+290;77;11/jun/2007;   ;   ;cholelithiasis                                                                                             ;2;1;.;02/jul/2007;1;1;1;12/jun/2007
+290;77;12/sep/2007;   ;   ;Laparoscopic cholecystectomi                                                                               ;3;1;.;28/nov/2007;1;1;3;.
+290;77;11-OCT-2007;   ;   ;Cholelithiasis                                                                                             ;3;2;1;28/nov/2007;1;1;1;12-OCT-2007
+291;77;10-DEC-2007;   ;   ;In stent restenosis                                                                                        ;1;1;.;10-DEC-2007;4;1;1;11-DEC-2007
+292;77;24/sep/2007;   ;   ;Thumb injury                                                                                               ;1;1;.;19/nov/2007;1;1;2;26/sep/2007
+293;77;25/abr/2007;   ;   ;angina                                                                                                     ;1;1;.;22-MAY-2007;1;1;1;26/abr/2007
+294;77;15/ene/2007;   ;   ;unstable angina                                                                                            ;2;1;.;23-MAY-2007;5;1;1;19/ene/2007
+295;77;10/sep/2007;   ;   ;Chestpain                                                                                                  ;1;1;.;11/sep/2007;1;1;1;11/sep/2007
+296;77;08/ene/2007;2;   ;acute stent trombosis                                                                                      ;1;1;.;08/ene/2007;1;4;1;.
+296;77;08/ene/2007;   ;   ;Acute stent thrombosis                                                                                     ;1;2;1;08/ene/2007;1;4;1;08/ene/2007
+296;77;01/abr/2007;   ;   ;commotio cerebri                                                                                           ;2;1;.;11/jul/2007;1;1;1;05/abr/2007
+296;77;02/abr/2007;   ;   ;Angina                                                                                                     ;3;1;.;11/jul/2007;1;1;1;05/abr/2007
+297;77;11/jul/2007;   ;   ;Constipation                                                                                               ;1;1;.;18/jul/2007;1;1;1;12/jul/2007
+297;77;13/jul/2007;   ;   ;Constipation                                                                                               ;2;1;.;18/jul/2007;1;1;1;14/jul/2007
+298;77;11/abr/2007;   ;   ;pnumonia                                                                                                   ;1;1;.;16/abr/2007;1;1;1;02-MAY-2007
+298;77;16/abr/2007;   ;   ;bradycardia - nodal rhythm                                                                                 ;2;1;.;26/abr/2007;2;2;1;19/abr/2007
+298;77;02-OCT-2007;   ;   ;bilateral ulceration in lower extremities                                                                  ;3;1;.;03-OCT-2007;1;1;3;.
+298;77;02-OCT-2007;   ;   ;Bilateral ulceration in lower extremities                                                                  ;3;2;1;03-OCT-2007;1;1;1;13/nov/2007
+299;77;04/jun/2007;   ;   ;Angina pectoris                                                                                            ;1;1;.;15/jun/2007;1;1;1;04/jun/2007
+299;77;16/jun/2007;   ;   ;Atriial fibrillation                                                                                       ;2;1;.;18/jun/2007;1;1;1;17/jun/2007
+299;77;10/jun/2007;   ;   ;Pneumonia postoperatively                                                                                  ;3;1;.;20/jun/2007;1;1;1;15/jun/2007
+299;77;16/jul/2007;   ;   ;Infection in left leg scar after coronary bypass graft.                                                    ;4;1;.;12-OCT-2007;1;1;1;18/jul/2007
+300;77;08-MAY-2007;   ;   ;chest pain                                                                                                 ;1;1;.;22-MAY-2007;2;2;1;10-MAY-2007
+300;77;14-MAY-2007;   ;   ;chest pain                                                                                                 ;2;1;.;22-MAY-2007;2;2;1;18-MAY-2007
+300;77;31-MAY-2007;   ;   ;Abdominal pain                                                                                             ;3;1;.;16-OCT-2007;1;1;1;07/jun/2007
+301;77;18/jun/2007;   ;   ;Stent stenosis                                                                                             ;1;1;.;18/jun/2007;4;1;3;.
+301;77;18/jun/2007;   ;   ;Stent stenosis                                                                                             ;1;2;1;18/jun/2007;4;1;1;25/jul/2007
+302;77;13-MAY-2007;   ;   ;Abdominal pains                                                                                            ;1;1;.;14-MAY-2007;1;1;1;14-MAY-2007
+303;77;19-MAY-2007;   ;   ;Chest pain.                                                                                                ;1;1;.;22-MAY-2007;1;1;1;21-MAY-2007
+303;77;06/jun/2007;   ;   ;Cacer tumor renis dext?                                                                                    ;2;1;.;24-OCT-2007;1;1;3;.
+303;77;19/ago/2007;   ;   ;Cancer tumor renis dext                                                                                    ;2;2;1;24-OCT-2007;1;1;3;.
+303;77;10/sep/2007;   ;   ;Canser tumor renal dext.                                                                                   ;2;2;2;24-OCT-2007;1;1;3;.
+303;77;23/sep/2007;   ;   ;Cancer tumor renis dext.                                                                                   ;2;2;3;24-OCT-2007;1;1;1;29/sep/2007
+303;77;18-OCT-2007;   ;   ;NSTEMI                                                                                                     ;3;1;.;24-OCT-2007;1;1;1;23-OCT-2007
+304;77;27/abr/2007;   ;   ;Brainstem infarction                                                                                       ;1;1;.;01-MAY-2007;2;3;3;.
+304;77;27/abr/2007;   ;   ;Brainstem infarction                                                                                       ;1;2;1;01-MAY-2007;2;3;1;04-MAY-2007
+305;77;25-MAY-2007;   ;   ;angina                                                                                                     ;1;1;.;31-MAY-2007;1;1;1;26-MAY-2007
+305;77;31-MAY-2007;   ;   ;Angina                                                                                                     ;2;1;.;31-MAY-2007;2;1;1;01/jun/2007
+306;77;08-MAY-2007;   ;   ;heart failure                                                                                              ;1;1;.;21-MAY-2007;1;2;3;.
+307;77;06/jul/2007;   ;   ;COPD                                                                                                       ;1;1;.;11/sep/2007;1;1;1;09/jul/2007
+308;77;19/ene/2007;   ;   ;presyncope                                                                                                 ;2;1;.;27/feb/2007;1;1;1;21/ene/2007
+309;77;23-MAY-2007;   ;   ;Duodenal Ulcus                                                                                             ;1;1;.;26/sep/2007;1;1;1;25-MAY-2007
+310;77;21/jul/2007;   ;   ;abdominal pain                                                                                             ;2;1;.;11-DEC-2007;1;1;1;25/jul/2007
+311;77;26/mar/2007;   ;   ;Cholecystectomy                                                                                            ;2;1;.;29/nov/2007;1;.;1;01/abr/2007
+312;77;31/ene/2007;   ;   ;pneumonia                                                                                                  ;1;1;.;11-DEC-2007;1;1;1;11/feb/2007
+313;77;18/ene/2007;   ;   ;Unstable Angina                                                                                            ;1;1;.;22/ene/2007;1;1;1;18/ene/2007
+314;77;01/sep/2007;   ;   ;Colon Cancer                                                                                               ;1;1;.;12/sep/2007;2;2;3;.
+315;80;08/jun/2007;   ;   ;STEMI                                                                                                      ;2;1;.;12/jun/2007;1;1;1;12/jun/2007
+315;80;.;   ;   ;Paraxistical atrial fibrilliation                                                                          ;1;2;1;24-OCT-2006;.;.;1;24-OCT-2006
+316;80;30/nov/2007;   ;   ;Chest pain                                                                                                 ;1;1;.;03-DEC-2007;1;1;1;02-DEC-2007
+317;80;14/sep/2007;   ;   ;syncope                                                                                                    ;4;1;.;04-DEC-2007;1;1;1;14/sep/2007
+318;80;25/abr/2007;   ;   ;angina                                                                                                     ;1;1;.;25/abr/2007;1;1;3;.
+318;80;25/abr/2007;   ;   ;angina                                                                                                     ;1;2;1;25/abr/2007;1;1;1;26/abr/2007
+319;80;30-MAY-2007;   ;   ;stenosis to LAD                                                                                            ;1;1;.;10/jul/2007;1;1;1;30-MAY-2007
+319;80;30-MAY-2007;   ;   ;unscheduled revascularisation                                                                              ;2;1;.;10/jul/2007;1;1;1;30-MAY-2007
+320;80;01/sep/2007;   ;   ;perineal abscess                                                                                           ;1;1;.;20/sep/2007;1;1;1;.
+321;80;14/jul/2007;   ;   ;chest pain hospitalisation                                                                                 ;1;1;.;22/ago/2007;1;1;1;15/jul/2007
+322;80;21/feb/2007;   ;   ;proable infection                                                                                          ;1;1;.;21/feb/2007;1;1;1;22/feb/2007
+322;80;21/feb/2007;   ;   ;probable infection                                                                                         ;1;2;1;21/feb/2007;1;1;1;22/feb/2007
+323;80;17-MAY-2007;   ;   ;circumsion                                                                                                 ;1;1;.;20/jun/2007;1;1;1;17-MAY-2007
+323;80;20/jun/2007;   ;   ;angina                                                                                                     ;2;1;.;20/jun/2007;1;1;1;21/jun/2007
+324;80;08/abr/2007;   ;   ;chest infection                                                                                            ;1;1;.;17/ago/2007;1;1;2;20/abr/2007
+325;80;28/feb/2007;   ;   ;pneumonia                                                                                                  ;7;1;.;02/abr/2007;1;1;4;12/mar/2007
+326;80;30/ene/2007;1;2;Troponin T negative chest pain                                                                             ;1;1;.;14/feb/2007;1;1;1;31/ene/2007
+327;80;19/mar/2007;   ;   ;ACS                                                                                                        ;1;1;.;29/mar/2007;1;1;3;.
+327;80;19/mar/2007;   ;   ;ACS                                                                                                        ;1;2;1;29/mar/2007;1;1;1;30/mar/2007
+328;80;09/ene/2007;1;2;Acute coronary syndrome                                                                                    ;1;1;.;29/ene/2007;4;1;1;11/ene/2007
+329;80;13/mar/2007;   ;   ;Arrhythmia                                                                                                 ;1;1;.;14/mar/2007;1;1;1;13/mar/2007
+330;80;16/ago/2007;   ;   ;Unstable Angina                                                                                            ;1;1;.;29-OCT-2007;1;1;1;23/ago/2007
+331;80;03-MAY-2007;   ;   ;Pulseless ventricular tachycardia                                                                          ;1;1;.;04-MAY-2007;1;1;1;09-MAY-2007
+331;80;12-MAY-2007;   ;   ;Pulmonary oedema                                                                                           ;2;2;2;04/jun/2007;1;1;1;18-MAY-2007

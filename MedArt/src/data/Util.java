@@ -1,18 +1,19 @@
 package data;
-import com.csvreader.CsvReader;
+import com.csvreader.*;
 
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 
 public class Util {
 	
-	public ArrayList readExcel(String file){
-		ArrayList ret = new ArrayList();
+	public static ArrayList<InfoCardio> readExcel(String file){
+		ArrayList<InfoCardio> ret = new ArrayList<InfoCardio>();
 		CsvReader reader = null;
+		int i = 0;
 		
 		try {
 			reader = new CsvReader(file, ';');
@@ -20,34 +21,34 @@ public class Util {
 			System.err.println(e);
 		}
 		
-		try{
-			reader.readHeaders();
-		} catch(IOException ex){
-			ex.printStackTrace();
-		}
 		
 		try{
 			InfoCardio record;
+			reader.readRecord();
 			while(reader.readRecord()){
 				record = new InfoCardio();
-				record.setId(reader.get("Pat Id"));
-				record.setCountrycode(reader.get("Country Code"));
-				record.setDate(reader.get("SAE Date"));
-				record.setUnexpextedSAE(reader.get("Unexpected SAE"));
-				record.setUade(reader.get("UADE"));
-				record.setSAEdiagnosis(reader.get("SAE Diagnosis"));
-				record.setEvent(reader.get("Event Number"));
-				record.setReportType(reader.get("Report Type"));
-				record.setSiteNotifiedDate(reader.get("Site Notified Date"));
-				record.setFUReport(reader.get("FU Report"));
-				record.setRelationDev(reader.get("Relation Device"));
-				record.setRelationDrug(reader.get("Relation Drug"));
-				record.setOutcome(reader.get("Outcome"));
-				record.setResolvedDate(reader.get("Resolved Date"));
+				record.setId(reader.get(0));
+				record.setCountrycode(reader.get(1));
+				record.setDate(reader.get(2));
+				record.setUnexpextedSAE(reader.get(3));
+				record.setUade(reader.get(4));
+				record.setSAEdiagnosis(reader.get(5));
+				record.setEvent(reader.get(6));
+				record.setReportType(reader.get(7));
+				record.setSiteNotifiedDate(reader.get(9));
+				record.setFUReport(reader.get(8));
+				record.setRelationDev(reader.get(10));
+				record.setRelationDrug(reader.get(11));
+				record.setOutcome(reader.get(12));
+				record.setResolvedDate(reader.get(13));
+				ret.add(record);
+				System.out.println(record.toString());
+				i++;
 			}
 		} catch(IOException ex){
 			ex.printStackTrace();
 		}
+		System.out.println("\nTotal: "+i +" patients");
 		reader.close();
 			
 	return ret;

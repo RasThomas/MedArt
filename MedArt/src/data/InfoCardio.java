@@ -1,107 +1,156 @@
 package data;
 
 public class InfoCardio {
-	private int id;
-	private int countrycode;
+	
+	private String id;
+	private String countrycode;
 	private String date;
-	private int unexpextedSAE;
-	private int uade;
+	private String unexpextedSAE;
+	private String uade;
 	private String SAEdiagnosis;
-	private int event;
-	private int reportType;
+	private String event;
+	private String reportType;
 	private String siteNotifiedDate;
 	private String FUReport;
-	private int relationDev;
-	private int relationDrug;
-	private int outcome;
+	private String relationDev;
+	private String relationDrug;
+	private String outcome;
 	private String resolvedDate;
 	
 	public InfoCardio(){
+		
 	}
 	
-	public int getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+
+	public void setId(String id) {
 		this.id = id;
 	}
-	public int getCountrycode() {
+
+	public String getCountrycode() {
 		return countrycode;
 	}
-	public void setCountrycode(int countrycode) {
+
+	public void setCountrycode(String countrycode) {
 		this.countrycode = countrycode;
 	}
+
 	public String getDate() {
 		return date;
 	}
+
 	public void setDate(String date) {
 		this.date = date;
 	}
-	public int getUnexpextedSAE() {
+
+	public String getUnexpextedSAE() {
 		return unexpextedSAE;
 	}
-	public void setUnexpextedSAE(int unexpextedSAE) {
+
+	public void setUnexpextedSAE(String unexpextedSAE) {
 		this.unexpextedSAE = unexpextedSAE;
 	}
-	public int getUade() {
+
+	public String getUade() {
 		return uade;
 	}
-	public void setUade(int uade) {
+
+	public void setUade(String uade) {
 		this.uade = uade;
 	}
+
 	public String getSAEdiagnosis() {
 		return SAEdiagnosis;
 	}
+
 	public void setSAEdiagnosis(String sAEdiagnosis) {
 		SAEdiagnosis = sAEdiagnosis;
 	}
-	public int getEvent() {
+
+	public String getEvent() {
 		return event;
 	}
-	public void setEvent(int event) {
+
+	public void setEvent(String event) {
 		this.event = event;
 	}
-	public int getReportType() {
+
+	public String getReportType() {
 		return reportType;
 	}
-	public void setReportType(int reportType) {
+
+	public void setReportType(String reportType) {
 		this.reportType = reportType;
 	}
+
 	public String getSiteNotifiedDate() {
 		return siteNotifiedDate;
 	}
+
 	public void setSiteNotifiedDate(String siteNotifiedDate) {
 		this.siteNotifiedDate = siteNotifiedDate;
 	}
+
 	public String getFUReport() {
 		return FUReport;
 	}
+
 	public void setFUReport(String fUReport) {
 		FUReport = fUReport;
 	}
-	public int getRelationDev() {
+
+	public String getRelationDev() {
 		return relationDev;
 	}
-	public void setRelationDev(int relationDev) {
+
+	public void setRelationDev(String relationDev) {
 		this.relationDev = relationDev;
 	}
-	public int getRelationDrug() {
+
+	public String getRelationDrug() {
 		return relationDrug;
 	}
-	public void setRelationDrug(int relationDrug) {
+
+	public void setRelationDrug(String relationDrug) {
 		this.relationDrug = relationDrug;
 	}
-	public int getOutcome() {
+
+	public String getOutcome() {
 		return outcome;
 	}
-	public void setOutcome(int outcome) {
+
+	public void setOutcome(String outcome) {
 		this.outcome = outcome;
 	}
+
 	public String getResolvedDate() {
 		return resolvedDate;
 	}
+
 	public void setResolvedDate(String resolvedDate) {
 		this.resolvedDate = resolvedDate;
 	}
+	
+	public String toString(){
+		String ret;
+		ret = "\n\nPatient: " +id;
+		ret += "\nCountry: " + countrycode;
+		ret += "\nDate: " + date;
+		ret += "\nSAE: " + unexpextedSAE;
+		ret += "\nUADE: " + uade;
+		ret += "\nSAE diagnosis: " + SAEdiagnosis;
+		ret += "\nEvent: " + event;
+		ret += "\nReport: " + reportType;
+		ret += "\nNotified date: " + siteNotifiedDate;
+		ret += "\nFU: " + FUReport;
+		ret += "\nRelation device: " + relationDev;
+		ret += "\nRelation Drug: " + relationDrug;
+		ret += "\nOutcome: " + outcome;
+		ret += "\nResolved date: " + resolvedDate;
+		return ret;
+	}
+
 
 }
