@@ -5,26 +5,24 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
+	
 
-  public static void main(String args[]) {
-    Connection con = null;
+  public static Connection connect() {
 
-    try {
-      Class.forName("com.mysql.jdbc.Driver").newInstance();
-      con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb",
-        "root", "komputer");
+	    Connection con = null;
 
-      if(!con.isClosed())
-        System.out.println("Successfully connected to " +
-          "MySQL server using TCP/IP...");
+	    try {
+	      Class.forName("com.mysql.jdbc.Driver").newInstance();
+	      con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb",
+	        "root", "komputer");
 
-    } catch(Exception e) {
-      System.err.println("Exception: " + e.getMessage());
-    } finally {
-      try {
-        if(con != null)
-          con.close();
-      } catch(SQLException e) {}
-    }
+	      if(!con.isClosed())
+	        System.out.println("Successfully connected to MySQL server");
+
+	    } catch(Exception e) {
+	      System.err.println("Exception: " + e.getMessage());
+	      e.printStackTrace();
+	    } 
+	return con;
   }
 }
