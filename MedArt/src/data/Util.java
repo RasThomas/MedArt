@@ -1,7 +1,5 @@
 package data;
 import com.csvreader.*;
-
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
