@@ -2,16 +2,17 @@ package data;
 import com.csvreader.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+import record.DBConnection;
 
 
 
 public class Util {
 	
-	public static ArrayList<InfoCardio> readExcel(String file){
-		ArrayList<InfoCardio> ret = new ArrayList<InfoCardio>();
+	public static void readExcel(String file){
 		CsvReader reader = null;
-		int i = 0;
 		
 		try {
 			reader = new CsvReader(file, ';');
@@ -24,32 +25,37 @@ public class Util {
 			InfoCardio record;
 			reader.readRecord();
 			while(reader.readRecord()){
-				record = new InfoCardio();
-				record.setId(reader.get(0));
-				record.setCountrycode(reader.get(1));
-				record.setDate(reader.get(2));
-				record.setUnexpextedSAE(reader.get(3));
-				record.setUade(reader.get(4));
-				record.setSAEdiagnosis(reader.get(5));
-				record.setEvent(reader.get(6));
-				record.setReportType(reader.get(7));
-				record.setSiteNotifiedDate(reader.get(9));
-				record.setFUReport(reader.get(8));
-				record.setRelationDev(reader.get(10));
-				record.setRelationDrug(reader.get(11));
-				record.setOutcome(reader.get(12));
-				record.setResolvedDate(reader.get(13));
-				ret.add(record);
-				System.out.println(record.toString());
-				i++;
+				//System.out.println("Inserting values in Mysql database table!");
+				Connection con = null;
+				try{
+					con = DBConnection.connect();
+					System.out.println("Connected!");
+					try{
+						Statement st = con.createStatement();
+						int val = st.executeUpdate("INSERT INTO `mydb`.`Patient` (`idPatient`, `countryCode`, `date`, `unexpectedSAE`, `uade`, `SAEdiagnosis`, `event`, `reportType`, `siteNotifiedDate`, `FUReport`, `relationDev`, `relationDrug`, `outcome`, `resolvedDate`) VALUES ('" + reader.get(0) + "','" + reader.get(1) + "','" + reader.get(2) + "','" + reader.get(3) + "','" + reader.get(4) + "','" + reader.get(5) + "','" + reader.get(6) + "','" + reader.get(7) + "','" + reader.get(9) + "','" + reader.get(8) + "','" + reader.get(10) + "','" + reader.get(11) + "','" + reader.get(12) + "','" + reader.get(13) +"')");
+						System.out.println("1 row affected");
+					}
+					catch (SQLException s){
+						System.out.println("SQL statement is not executed!");
+						s.printStackTrace();
+					}finally {
+						try {
+							if(con != null)
+								con.close();
+							System.out.println("Disconnected from database.");
+						} catch(SQLException e) {}
+					}
+				}
+				catch (Exception e){
+					e.printStackTrace();
+					e.printStackTrace();
+				}
 			}
 		} catch(IOException ex){
 			ex.printStackTrace();
 		}
-		System.out.println("\nTotal: "+i +" patients");
 		reader.close();
 			
-	return ret;
 	}
 	
 }
