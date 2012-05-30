@@ -25,7 +25,6 @@ public class Util {
 			InfoCardio record;
 			reader.readRecord();
 			while(reader.readRecord()){
-				//System.out.println("Inserting values in Mysql database table!");
 				Connection con = null;
 				try{
 					con = DBConnection.connect();
@@ -56,6 +55,10 @@ public class Util {
 		}
 		reader.close();
 			
+	}
+	
+	public static void main (String[] args){
+		readExcel("data.csv");
 	}
 	
 }
