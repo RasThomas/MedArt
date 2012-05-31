@@ -44,7 +44,7 @@ public class Comments {
 			System.out.println("Connected!");
 			try{
 				Statement st = con.createStatement();
-				int val = st.executeUpdate("INSERT INTO `mydb`.`Comments` (`Comment`,`idArticleMeta`) VALUES ('" + Comment + "','" + ArticlenNumber +"')");
+				int val = st.executeUpdate("INSERT INTO mydb.Comments (Comment,idArticleMeta) VALUES ('" + Comment + "','" + ArticlenNumber +"')");
 				System.out.println("1 row affected");
 			}
 			catch (SQLException s){
@@ -65,8 +65,8 @@ public class Comments {
 	}
 	public static void main(String args[]) {
 		insertArticle(1, "Nice, yes?");
-		insertArticle(1, "Very nice!");
-		System.out.println(getComments(1));
-		System.out.println(getComments(104));
+//		insertArticle(1, "Very nice!");
+//		System.out.println(getComments(1));
+//		System.out.println(getComments(104));
 	}
 }

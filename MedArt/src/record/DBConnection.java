@@ -13,8 +13,8 @@ public class DBConnection {
 
 	    try {
 	      Class.forName("com.mysql.jdbc.Driver").newInstance();
-	      con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb",
-	        "root", "komputer");
+	      con = DriverManager.getConnection("jdbc:mysql://129.177.49.83:3306/mydb",
+	        "nisse", "komputer");
 
 	      if(!con.isClosed())
 	        System.out.println("Successfully connected to MySQL server");
