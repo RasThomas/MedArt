@@ -90,6 +90,7 @@ public class Find {
 	}
 	
 	public static void main(String args[]) {
-		FindEffect("angina");
+		//FindEffect("chest pain");
+		FindPatient("1");
 	}
 }
