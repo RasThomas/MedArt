@@ -65,8 +65,8 @@ public class Comments {
 	}
 	public static void main(String args[]) {
 		insertArticle(1, "Nice, yes?");
-//		insertArticle(1, "Very nice!");
-//		System.out.println(getComments(1));
-//		System.out.println(getComments(104));
+		insertArticle(1, "Very nice!");
+		System.out.println(getComments(1));
+		System.out.println(getComments(104));
 	}
 }
