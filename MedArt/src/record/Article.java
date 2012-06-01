@@ -63,9 +63,9 @@ public class Article {
 		}
 	}
 	public static void main(String args[]) {
-		insertArticle(108);
-		System.out.println(matchArticleNumber(103));
+		insertArticle(104);
 		System.out.println(matchArticleNumber(104));
+		System.out.println(matchArticleNumber(108));
 	}
 	
 

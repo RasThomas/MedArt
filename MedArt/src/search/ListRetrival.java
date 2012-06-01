@@ -36,7 +36,7 @@ public class ListRetrival {
 		if (node.getNodeType() == Node.ELEMENT_NODE) {
 			//			Element element = (Element) node;
 			NodeList nodelist = docList.getElementsByTagName("Id");
-			for (int i = 0; i < 20; i++) { 
+			for (int i = 0; i < nodelist.getLength(); i++) { 
 				Element element1 = (Element) nodelist.item(i);
 				NodeList fstNm = element1.getChildNodes();
 				System.out.println("Id : " + (fstNm.item(0)).getNodeValue());

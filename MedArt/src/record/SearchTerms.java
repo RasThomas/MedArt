@@ -58,7 +58,7 @@ public class SearchTerms {
 		}
 	}
 	public static void main(String args[]) {
-		insertTerms("Chest Pain 2");
+		insertTerms("Chest Pain 3");
 		getTerms();
 	}
 }
