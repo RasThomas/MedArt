@@ -2,16 +2,19 @@
 
 import java.sql.*;
 
-public class SearchTerms {
-	public static void getTerms() {
+import javax.swing.JApplet;
+
+public class SearchTerms extends JApplet {
+	public static ResultSet getTerms() {
 		System.out.println("Getting values from Mysql database table!");
 		Connection con = null;
+		ResultSet res = null;
 		try{
 			con = DBConnection.connect();
 			System.out.println("Connected!");
 			try{
 				Statement st = con.createStatement();
-				ResultSet res = st.executeQuery("SELECT Term FROM SearchTerms");
+				res = st.executeQuery("SELECT Term FROM SearchTerms");
 				System.out.println("Search Terms:");
 				while (res.next()) {
 					String s = res.getString("Term");
@@ -28,6 +31,7 @@ public class SearchTerms {
 		catch (Exception e){
 			e.printStackTrace();
 		}
+		return res;
 	}
 
 	public static void insertTerms(String SearchTerm) {
